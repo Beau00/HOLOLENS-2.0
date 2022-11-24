@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water Material
+  m_Name: Water Mat
   m_Shader: {fileID: -6465566751694194690, guid: 201149eb0c3943b4ab32da15068da0dd, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -90,13 +90,16 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
+    - _Foam_Depth: 2
+    - _Foam_Noise_Scale: 10
+    - _Foam_Ripple_Speed: 0.3
     - _Foam_Width: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Height: 0.07
+    - _Height: 0.04
     - _Metallic: 0
-    - _Noise_Scale: 1.49
+    - _Noise_Scale: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
@@ -107,20 +110,24 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _Water_scroll_Speed: 0.14
+    - _Water_Height: 2
+    - _Water_Noise_Scale: 2
+    - _Water_Speed: 2
     - _Wave_Scroll_speed: 0.14
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Deep: {r: 0.1333333, g: 0.35686272, b: 0.6039216, a: 1}
+    - _Deep: {r: 0.08067818, g: 0.2619315, b: 0.46226418, a: 1}
+    - _Deep_Color: {r: 0, g: 0.39215687, b: 0.67058825, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Foam_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Shallow: {r: 0.47058824, g: 0.7764706, b: 0.8392157, a: 1}
+    - _Shallow_Color: {r: 0.40784308, g: 0.7176471, b: 0.7960784, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &2426429392020488605
+--- !u!114 &7329578991078577483
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
