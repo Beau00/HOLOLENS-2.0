@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8516853797593169432}
   - component: {fileID: 5896626083686173394}
   - component: {fileID: 9008503472680219880}
+  - component: {fileID: 2502850218437284293}
   m_Layer: 0
   m_Name: floor_half_rotated
   m_TagString: Untagged
@@ -98,6 +99,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 0.050000004, z: 1.5}
   m_Center: {x: 0, y: 0.05, z: 0}
+--- !u!205 &2502850218437284293
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5392491411650472711}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.05, z: 0}
+  m_Size: 3
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5896626083686173394}
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8751733870135931948}
+  m_Enabled: 1
 --- !u!1001 &7977548636224907432
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -159,12 +183,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2cf7b598a71a88342828abe5893dec53, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cf7b598a71a88342828abe5893dec53, type: 3}
 --- !u!4 &7583863081905360707 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2cf7b598a71a88342828abe5893dec53, type: 3}
+  m_PrefabInstance: {fileID: 7977548636224907432}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8751733870135931948 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 2cf7b598a71a88342828abe5893dec53, type: 3}
   m_PrefabInstance: {fileID: 7977548636224907432}
   m_PrefabAsset: {fileID: 0}

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7227833425621677162}
   - component: {fileID: 4875880509362602144}
   - component: {fileID: 6082972062122351658}
+  - component: {fileID: 7320039924023113206}
   m_Layer: 0
   m_Name: wall_door_1
   m_TagString: Untagged
@@ -99,6 +100,29 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3774423407010246434, guid: e56bb59e5a804604db33765b49bd8690, type: 3}
+--- !u!205 &7320039924023113206
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6389032328678646133}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 1.0500001, z: 0}
+  m_Size: 3.007
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4875880509362602144}
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4875880508297023356}
+  m_Enabled: 1
 --- !u!1001 &6082972063824942072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -160,10 +184,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6eebfd06e18c97f4782c2545fdda890a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6eebfd06e18c97f4782c2545fdda890a, type: 3}
+--- !u!23 &4875880508297023356 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 6eebfd06e18c97f4782c2545fdda890a, type: 3}
+  m_PrefabInstance: {fileID: 6082972063824942072}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6044314079379878931 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6eebfd06e18c97f4782c2545fdda890a, type: 3}

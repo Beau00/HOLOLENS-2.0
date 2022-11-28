@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4037077421952433445}
   - component: {fileID: 2297508501832436207}
   - component: {fileID: 3469287837531862206}
+  - component: {fileID: 438634197478284358}
   m_Layer: 0
   m_Name: floor_quarter
   m_TagString: Untagged
@@ -98,6 +99,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 0.049999997, z: 1.5}
   m_Center: {x: 0, y: 0.05, z: 0}
+--- !u!205 &438634197478284358
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352019365698611258}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.05, z: 0}
+  m_Size: 1.5
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2297508501832436207}
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2297508502374142046}
+  m_Enabled: 1
 --- !u!1001 &586583331929443546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -159,12 +183,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 268c8d75805328b42b0c7deeb380cce4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 268c8d75805328b42b0c7deeb380cce4, type: 3}
 --- !u!4 &1128520127951448881 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 268c8d75805328b42b0c7deeb380cce4, type: 3}
+  m_PrefabInstance: {fileID: 586583331929443546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &2297508502374142046 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 268c8d75805328b42b0c7deeb380cce4, type: 3}
   m_PrefabInstance: {fileID: 586583331929443546}
   m_PrefabAsset: {fileID: 0}

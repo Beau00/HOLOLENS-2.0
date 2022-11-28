@@ -7151,21 +7151,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 201802705}
     m_Modifications:
-    - target: {fileID: 4912817839200617939, guid: 24b4f88f1159f674eaef90c9d0a8ba08, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5551534050072801712, guid: 24b4f88f1159f674eaef90c9d0a8ba08, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6200329404333985893, guid: 24b4f88f1159f674eaef90c9d0a8ba08, type: 3}
       propertyPath: m_Name
       value: wall_door_3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6200329404472925161, guid: 24b4f88f1159f674eaef90c9d0a8ba08, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6719421301180386015, guid: 24b4f88f1159f674eaef90c9d0a8ba08, type: 3}
       propertyPath: m_RootOrder
@@ -7879,11 +7867,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3236986138880809059, guid: b4e64486e1f71434882a3cc4ba0fabe0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.5575485
+      value: -1.3075485
       objectReference: {fileID: 0}
     - target: {fileID: 3236986138880809059, guid: b4e64486e1f71434882a3cc4ba0fabe0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.321084
+      value: -15.821084
       objectReference: {fileID: 0}
     - target: {fileID: 3236986138880809059, guid: b4e64486e1f71434882a3cc4ba0fabe0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8040,14 +8028,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 201802705}
     m_Modifications:
-    - target: {fileID: 8003065411034884259, guid: 74a73f2e21c9e144ea1d4ff329f20823, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8363296549610395263, guid: 74a73f2e21c9e144ea1d4ff329f20823, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8363296550509382006, guid: 74a73f2e21c9e144ea1d4ff329f20823, type: 3}
       propertyPath: m_Name
       value: wall_door_2
