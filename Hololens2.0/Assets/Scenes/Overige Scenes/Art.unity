@@ -6011,11 +6011,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c874c73d04d21949a6bffc35d74225a, type: 3}
---- !u!1 &919132148497986354 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3119239819357308510, guid: d1e05378cb6be944595a663ecd5adbf9, type: 3}
-  m_PrefabInstance: {fileID: 2848717836247299436}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &925665443055470410
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6097,9 +6092,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1081433694}
     m_Modifications:
+    - target: {fileID: 191945943303939587, guid: 35092303a66de9d4a933c2dbcb07aacb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 191945943682098543, guid: 35092303a66de9d4a933c2dbcb07aacb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 191945944030869026, guid: 35092303a66de9d4a933c2dbcb07aacb, type: 3}
       propertyPath: m_Name
@@ -7206,9 +7205,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree6
       objectReference: {fileID: 0}
+    - target: {fileID: 2430556542575120192, guid: 4c83c563aba184641aade4242626160b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2430556542939588180, guid: 4c83c563aba184641aade4242626160b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3094187213716219876, guid: 4c83c563aba184641aade4242626160b, type: 3}
       propertyPath: m_RootOrder
@@ -7435,20 +7438,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e92722193f2ba284bb0f94e2f509bbf4, type: 3}
---- !u!64 &3469287838147831342
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148497986354}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -9015282845353648803, guid: 3ad8b91dca7d83746824cff042fb5cfd, type: 3}
 --- !u!1001 &3566690640922980909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8145,9 +8134,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5465257380768275328, guid: 12776dfe7b7752e47ac611e71cd445d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5465257381288768613, guid: 12776dfe7b7752e47ac611e71cd445d0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5465257381925440488, guid: 12776dfe7b7752e47ac611e71cd445d0, type: 3}
       propertyPath: m_Name
@@ -10102,9 +10095,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8666350841672227189, guid: b6f0a36adf172a24194ba5a81f1677f5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8666350841673200129, guid: b6f0a36adf172a24194ba5a81f1677f5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8666350842602058737, guid: b6f0a36adf172a24194ba5a81f1677f5, type: 3}
       propertyPath: m_Name
@@ -10535,7 +10532,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8241175667171526912, guid: 7e935b955c6eded4cbaab7bffd1fe2ec, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8241175668067982454, guid: 7e935b955c6eded4cbaab7bffd1fe2ec, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8241175668920212021, guid: 7e935b955c6eded4cbaab7bffd1fe2ec, type: 3}
       propertyPath: m_Name
