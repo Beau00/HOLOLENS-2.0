@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/AmyTest.unity
+    path: Assets/Scenes/Overige Scenes/AmyTest.unity
     guid: a5e766d0210c0724094073381db6f909
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ebf80b9682aeb8b428036ee55bd55366, type: 2}
