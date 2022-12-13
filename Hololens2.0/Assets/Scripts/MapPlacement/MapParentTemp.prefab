@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4285933379691294192}
   - component: {fileID: 7636953341017592849}
   m_Layer: 0
-  m_Name: Map Parent
+  m_Name: MapParentTemp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
