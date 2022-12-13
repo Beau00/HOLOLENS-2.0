@@ -15,8 +15,9 @@ MonoBehaviour:
   isCustomProfile: 1
   configurations:
   - componentType:
-      reference: 
-    componentName: New Configuration 0
+      reference: Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.HandPhysicsService,
+        Microsoft.MixedReality.Toolkit.Extensions.HandPhysics
+    componentName: Hand Collision
     priority: 10
     runtimePlatform: -1
-    configurationProfile: {fileID: 0}
+    configurationProfile: {fileID: 11400000, guid: 37d344cc61e3ed8498284ae1e12eaf9c, type: 2}
