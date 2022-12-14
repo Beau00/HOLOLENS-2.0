@@ -93,11 +93,11 @@ Material:
     - _Foam_Depth: 2
     - _Foam_Noise_Scale: 10
     - _Foam_Ripple_Speed: 0.3
-    - _Foam_Width: 1
+    - _Foam_Width: 0.5
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Height: 0.04
+    - _Height: 0.5
     - _Metallic: 0
     - _Noise_Scale: 1
     - _OcclusionStrength: 1
@@ -113,7 +113,7 @@ Material:
     - _Water_Height: 2
     - _Water_Noise_Scale: 2
     - _Water_Speed: 2
-    - _Wave_Scroll_speed: 0.14
+    - _Wave_Scroll_speed: 100
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
