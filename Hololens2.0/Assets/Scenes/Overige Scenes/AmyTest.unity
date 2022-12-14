@@ -10102,7 +10102,7 @@ MonoBehaviour:
     SnapPoints: []
     RepeatSnapPoints: 0
     SnapRadius: 0.2
-  elasticTypes: 5
+  elasticTypes: 4
 --- !u!114 &288148431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17158,7 +17158,7 @@ MonoBehaviour:
     SnapPoints: []
     RepeatSnapPoints: 0
     SnapRadius: 0.2
-  elasticTypes: 5
+  elasticTypes: 4
 --- !u!114 &539118043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17188,7 +17188,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 539118044}
+  constraintsManager: {fileID: 288148429}
   elasticsManager: {fileID: 539118042}
   onManipulationStarted:
     m_PersistentCalls:
@@ -19767,7 +19767,7 @@ MonoBehaviour:
     SnapPoints: []
     RepeatSnapPoints: 0
     SnapRadius: 0.2
-  elasticTypes: 5
+  elasticTypes: 4
 --- !u!114 &603075308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20501,8 +20501,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 583ce2686970fc6498702c81385e5457, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRadius: 10
-  force: 10
+  radius: 10
+  strength: 10
+  spinSpeed: 10
 --- !u!4 &624211603
 Transform:
   m_ObjectHideFlags: 0
@@ -21435,7 +21436,7 @@ MonoBehaviour:
     SnapPoints: []
     RepeatSnapPoints: 0
     SnapRadius: 0.2
-  elasticTypes: 5
+  elasticTypes: 4
 --- !u!114 &645020718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43847,7 +43848,7 @@ MonoBehaviour:
     SnapPoints: []
     RepeatSnapPoints: 0
     SnapRadius: 0.2
-  elasticTypes: 5
+  elasticTypes: 4
 --- !u!114 &1352768121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64162,6 +64163,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5833156331874210003, guid: a0802045a1422d74f9c5b492e9bcf1db, type: 3}
   m_PrefabInstance: {fileID: 1048394917}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2052371560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2052371562}
+  - component: {fileID: 2052371561}
+  m_Layer: 0
+  m_Name: Tornado
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2052371561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052371560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 583ce2686970fc6498702c81385e5457, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 10
+  strength: 10
+  spinSpeed: 10
+--- !u!4 &2052371562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052371560}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.123, y: -0.224, z: 3.372}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2055390722 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 4663657854030550953, guid: a0802045a1422d74f9c5b492e9bcf1db, type: 3}
