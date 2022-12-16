@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4728263881405051325}
   - component: {fileID: 8516853797593169432}
   - component: {fileID: 5896626083686173394}
-  - component: {fileID: 9008503472680219880}
   - component: {fileID: 2502850218437284293}
   m_Layer: 0
   m_Name: floor_half_rotated
@@ -86,19 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &9008503472680219880
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5392491411650472711}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3, y: 0.050000004, z: 1.5}
-  m_Center: {x: 0, y: 0.05, z: 0}
 --- !u!205 &2502850218437284293
 LODGroup:
   m_ObjectHideFlags: 0

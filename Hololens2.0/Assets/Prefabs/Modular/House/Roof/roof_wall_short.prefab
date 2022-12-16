@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 124802050961590523}
   - component: {fileID: 3896943367820494686}
   - component: {fileID: 1292618929970197396}
-  - component: {fileID: 7750532777249354354}
   m_Layer: 0
   m_Name: roof_wall_short
   m_TagString: Untagged
@@ -84,17 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7750532777249354354
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 788326065553412673}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6238583594065332574, guid: 845290b6a0ffd1941a66a603d33278b2, type: 3}

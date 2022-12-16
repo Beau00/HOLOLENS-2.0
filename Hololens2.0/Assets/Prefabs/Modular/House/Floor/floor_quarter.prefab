@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1128520128484766336}
   - component: {fileID: 4037077421952433445}
   - component: {fileID: 2297508501832436207}
-  - component: {fileID: 3469287837531862206}
   - component: {fileID: 438634197478284358}
   m_Layer: 0
   m_Name: floor_quarter
@@ -86,19 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3469287837531862206
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 352019365698611258}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 0.049999997, z: 1.5}
-  m_Center: {x: 0, y: 0.05, z: 0}
 --- !u!205 &438634197478284358
 LODGroup:
   m_ObjectHideFlags: 0
