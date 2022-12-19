@@ -106,15 +106,15 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
-    agentHeight: 2
-    agentSlope: 45
-    agentClimb: 0.4
+    agentRadius: 0.01
+    agentHeight: 0.02
+    agentSlope: 0
+    agentClimb: 0.01
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 0.0033333332
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 695ff01f1b6e51e44ad4abb05c169c8d, type: 2}
 --- !u!1 &176790953
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,7 +347,9 @@ Transform:
   m_LocalPosition: {x: 0.62076855, y: -0.8928475, z: 4.0062103}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 854411205}
+  - {fileID: 1859081882}
   m_Father: {fileID: 1868358648}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -555,12 +557,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854411204}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.62076855, y: 0.8928475, z: -4.0062103}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1868358648}
-  m_RootOrder: 1
+  m_Father: {fileID: 581900554}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &854411206
 MonoBehaviour:
@@ -670,7 +672,7 @@ Camera:
   m_GameObject: {fileID: 854411204}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -964,7 +966,7 @@ Transform:
   - {fileID: 1105703575}
   - {fileID: 1309326494}
   m_Father: {fileID: 1868358648}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1178559259
 PrefabInstance:
@@ -2138,12 +2140,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859081881}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0.15922076, y: -0.45273447, z: 3.4990597}
+  m_LocalPosition: {x: -0.4615478, y: 0.440113, z: -0.50715065}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1868358648}
-  m_RootOrder: 2
+  m_Father: {fileID: 581900554}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!114 &1859081883
 MonoBehaviour:
@@ -2271,8 +2273,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 581900554}
-  - {fileID: 854411205}
-  - {fileID: 1859081882}
   - {fileID: 1170577475}
   m_Father: {fileID: 0}
   m_RootOrder: 2
