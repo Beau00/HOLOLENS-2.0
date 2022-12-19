@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 76792058}
   - component: {fileID: 76792057}
   m_Layer: 0
-  m_Name: Quad
+  m_Name: Temp fix for water edges
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +30,9 @@ Transform:
   m_LocalPosition: {x: -4.75, y: -5.77, z: -50.12}
   m_LocalScale: {x: 23.125162, y: 8.1817, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 630930064}
+  - {fileID: 145452593}
   m_Father: {fileID: 1382774247900417425}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -414,12 +416,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145452592}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.00000026822087}
-  m_LocalPosition: {x: 24.09, y: -5.77, z: 49.82}
-  m_LocalScale: {x: 51.158714, y: 8.1817, z: 1}
+  m_LocalPosition: {x: 1.2471263, y: 0, z: 99.94}
+  m_LocalScale: {x: 2.2122533, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1382774247900417425}
-  m_RootOrder: 11
+  m_Father: {fileID: 76792056}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!33 &145452596
 MeshFilter:
@@ -560,12 +562,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 630930063}
   m_LocalRotation: {x: -0, y: -0.70710677, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 49.63, y: -5.77, z: 37.23}
-  m_LocalScale: {x: 25.174053, y: 8.1817, z: 1}
+  m_LocalPosition: {x: 2.3515515, y: 0, z: 87.35}
+  m_LocalScale: {x: 25.174053, y: 1, z: 0.043242943}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1382774247900417425}
-  m_RootOrder: 10
+  m_Father: {fileID: 76792056}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!33 &630930067
 MeshFilter:
@@ -950,8 +952,6 @@ Transform:
   - {fileID: 1356086873}
   - {fileID: 21256946946803654}
   - {fileID: 76792056}
-  - {fileID: 630930064}
-  - {fileID: 145452593}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4674,7 +4674,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3579495046626668628, guid: 688f2dd6bf28a824eb14c4a6089afaac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.7516174
+      value: -7.92
       objectReference: {fileID: 0}
     - target: {fileID: 3579495046626668628, guid: 688f2dd6bf28a824eb14c4a6089afaac, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4682,7 +4682,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3579495046626668628, guid: 688f2dd6bf28a824eb14c4a6089afaac, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -25.08845
+      value: -24.64
       objectReference: {fileID: 0}
     - target: {fileID: 3579495046626668628, guid: 688f2dd6bf28a824eb14c4a6089afaac, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16269,7 +16269,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3579495046626668628, guid: 688f2dd6bf28a824eb14c4a6089afaac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.2586975
+      value: 13.25
       objectReference: {fileID: 0}
     - target: {fileID: 3579495046626668628, guid: 688f2dd6bf28a824eb14c4a6089afaac, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16277,11 +16277,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3579495046626668628, guid: 688f2dd6bf28a824eb14c4a6089afaac, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -29.441399
+      value: -29.24
       objectReference: {fileID: 0}
     - target: {fileID: 3579495046626668628, guid: 688f2dd6bf28a824eb14c4a6089afaac, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.63525486
+      value: 0.68673766
       objectReference: {fileID: 0}
     - target: {fileID: 3579495046626668628, guid: 688f2dd6bf28a824eb14c4a6089afaac, type: 3}
       propertyPath: m_LocalRotation.x
@@ -16289,7 +16289,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3579495046626668628, guid: 688f2dd6bf28a824eb14c4a6089afaac, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.77230257
+      value: 0.72690535
       objectReference: {fileID: 0}
     - target: {fileID: 3579495046626668628, guid: 688f2dd6bf28a824eb14c4a6089afaac, type: 3}
       propertyPath: m_LocalRotation.z
@@ -16301,7 +16301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3579495046626668628, guid: 688f2dd6bf28a824eb14c4a6089afaac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 101.122
+      value: 93.255
       objectReference: {fileID: 0}
     - target: {fileID: 3579495046626668628, guid: 688f2dd6bf28a824eb14c4a6089afaac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -25768,23 +25768,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5081994747515373809, guid: 1bda5edb22a84c14aa75bd90d3ce0fbb, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6580667
+      value: 0.65794295
       objectReference: {fileID: 0}
     - target: {fileID: 5081994747515373809, guid: 1bda5edb22a84c14aa75bd90d3ce0fbb, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0008949855
+      value: 0.012793624
       objectReference: {fileID: 0}
     - target: {fileID: 5081994747515373809, guid: 1bda5edb22a84c14aa75bd90d3ce0fbb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7529584
+      value: 0.7528168
       objectReference: {fileID: 0}
     - target: {fileID: 5081994747515373809, guid: 1bda5edb22a84c14aa75bd90d3ce0fbb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0010240414
+      value: -0.014638439
       objectReference: {fileID: 0}
     - target: {fileID: 5081994747515373809, guid: 1bda5edb22a84c14aa75bd90d3ce0fbb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.156
+      value: 2.228
       objectReference: {fileID: 0}
     - target: {fileID: 5081994747515373809, guid: 1bda5edb22a84c14aa75bd90d3ce0fbb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
