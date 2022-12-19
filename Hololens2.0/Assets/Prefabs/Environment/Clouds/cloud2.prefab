@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 8525724013451901139}
   - component: {fileID: 4755430967116461942}
   - component: {fileID: 7357289754235143100}
-  - component: {fileID: 8204377288367415098}
   - component: {fileID: -6868568474721626658}
   - component: {fileID: -3079842008330021815}
   - component: {fileID: -1697803895557972770}
   - component: {fileID: -5781204675458043111}
   - component: {fileID: -4591283957918734530}
+  - component: {fileID: 1581748334975942156}
   m_Layer: 0
   m_Name: cloud2
   m_TagString: Untagged
@@ -89,19 +89,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8204377288367415098
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9014698461725008489}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.15334514, y: 0.09504267, z: 0.25957787}
-  m_Center: {x: -0.036857016, y: 0.0047021173, z: 0.011314878}
 --- !u!114 &-6868568474721626658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,3 +208,16 @@ MonoBehaviour:
     RepeatSnapPoints: 0
     SnapRadius: 1
   elasticTypes: 4
+--- !u!65 &1581748334975942156
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9014698461725008489}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15.334513, y: 10.485055, z: 25.957787}
+  m_Center: {x: -3.685702, y: -0.020182133, z: 1.1314883}
