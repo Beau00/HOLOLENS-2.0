@@ -12,6 +12,11 @@ GameObject:
   - component: {fileID: 6577541755471215059}
   - component: {fileID: 8983810621572762905}
   - component: {fileID: 7740981360518189471}
+  - component: {fileID: 186565452466427779}
+  - component: {fileID: 1175531333023011506}
+  - component: {fileID: 3011276613980181889}
+  - component: {fileID: -194613877828601408}
+  - component: {fileID: -2312178529348864212}
   m_Layer: 0
   m_Name: cloud4
   m_TagString: Untagged
@@ -97,3 +102,122 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.14040118, y: 0.06787113, z: 0.1890994}
   m_Center: {x: -0.012851596, y: 0.015832998, z: 0.015225162}
+--- !u!114 &186565452466427779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7470368255636827340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a98de877dee5fc341b4eb59dfdab266c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoConstraintSelection: 1
+  selectedConstraints: []
+--- !u!114 &1175531333023011506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7470368255636827340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 181cd563a8349c34ea8978b0bc8d9c7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hostTransform: {fileID: 7847457435754575478}
+  manipulationType: 3
+  twoHandedManipulationType: 7
+  allowFarManipulation: 1
+  useForcesForNearManipulation: 0
+  oneHandRotationModeNear: 1
+  oneHandRotationModeFar: 1
+  releaseBehavior: 3
+  transformSmoothingLogicType:
+    reference: Microsoft.MixedReality.Toolkit.Utilities.DefaultTransformSmoothingLogic,
+      Microsoft.MixedReality.Toolkit.SDK
+  smoothingFar: 1
+  smoothingNear: 1
+  moveLerpTime: 0.001
+  rotateLerpTime: 0.001
+  scaleLerpTime: 0.001
+  enableConstraints: 1
+  constraintsManager: {fileID: 186565452466427779}
+  elasticsManager: {fileID: -2312178529348864212}
+  onManipulationStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  onManipulationEnded:
+    m_PersistentCalls:
+      m_Calls: []
+  onHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  onHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &3011276613980181889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7470368255636827340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTetherWhenManipulating: 0
+  IsBoundsHandles: 0
+--- !u!114 &-194613877828601408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7470368255636827340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e928117d61ef2640a26b75586731423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2312178529348864212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7470368255636827340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49eebbfcc03829f4ebed61c2617da0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationElasticConfigurationObject: {fileID: 0}
+  rotationElasticConfigurationObject: {fileID: 0}
+  scaleElasticConfigurationObject: {fileID: 0}
+  translationElasticExtent:
+    StretchBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    UseBounds: 0
+    SnapPoints: []
+    RepeatSnapPoints: 0
+    SnapRadius: 0
+  rotationElasticExtent:
+    SnapPoints: []
+    RepeatSnapPoints: 0
+    SnapRadius: 0
+  scaleElasticExtent:
+    StretchBounds:
+      m_Center: {x: 0.5, y: 0.5, z: 0.5}
+      m_Extent: {x: 1.5, y: 1.5, z: 1.5}
+    UseBounds: 0
+    SnapPoints: []
+    RepeatSnapPoints: 0
+    SnapRadius: 1
+  elasticTypes: 4
