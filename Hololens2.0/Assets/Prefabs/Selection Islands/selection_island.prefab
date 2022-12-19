@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 5933189514929761031}
   - component: {fileID: 8480870890872315853}
   - component: {fileID: 7094170542450115403}
+  - component: {fileID: 7435579107189580335}
   m_Layer: 0
   m_Name: selection_island
   m_TagString: Untagged
@@ -210,6 +211,38 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8189437351609123285, guid: 9f6a3feb2d18e2644b184206274b76a1, type: 3}
+--- !u!114 &7435579107189580335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7976692239915728408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1410eac1ae94b4d4492a09cc368e152c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states: {fileID: 11400000, guid: 5eac1712038236e4b8ffdb3893804fe1, type: 2}
+  InputActionId: 0
+  isGlobal: 1
+  Dimensions: 1
+  dimensionIndex: 0
+  startDimensionIndex: 0
+  CanSelect: 1
+  CanDeselect: 1
+  voiceCommand: 
+  voiceRequiresFocus: 1
+  profiles:
+  - Target: {fileID: 0}
+    Themes:
+    - {fileID: 0}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+  Events: []
+  resetOnDestroy: 0
+  enabledOnStart: 1
 --- !u!1001 &7094170542074380383
 PrefabInstance:
   m_ObjectHideFlags: 0
