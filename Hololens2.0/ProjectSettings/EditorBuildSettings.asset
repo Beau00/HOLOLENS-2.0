@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Overige Scenes/AmyTest.unity
     guid: a5e766d0210c0724094073381db6f909
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes Game/Map_Selection_Scene.unity
+    guid: c17c2c1d51424be41a5af67efcc93850
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes Game/Main_Scene.unity
+    guid: cfd4ed641dee72f4b8d13dee2a317915
+  - enabled: 0
+    path: Assets/Scenes/Main Scenes Game/Desert_Scene.unity
+    guid: e8b1c105bfdee8b419bbe0b159832771
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ebf80b9682aeb8b428036ee55bd55366, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 59dd6f0756600004c9212b5a453d999d, type: 2}

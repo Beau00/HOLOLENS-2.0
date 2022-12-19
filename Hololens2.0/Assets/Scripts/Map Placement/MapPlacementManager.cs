@@ -11,7 +11,7 @@ public class MapPlacementManager : MonoBehaviour
     {
         mapGizmos.SetActive(false);
         Instantiate(mapParent, mapGizmos.transform.position, mapGizmos.transform.rotation);
-
-        mapParent.transform.localScale = mapGizmos.transform.localScale;
+        Debug.Log("Map set");
+        //mapParent.transform.localScale = mapGizmos.transform.localScale;
     }
 }

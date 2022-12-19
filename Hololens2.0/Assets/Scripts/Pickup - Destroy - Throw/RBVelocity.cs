@@ -10,25 +10,17 @@ public class RBVelocity : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        rb.constraints = RigidbodyConstraints.FreezeAll;
+        Debug.Log("freeze");
     }
-    // Update is called once per frame
-    void Update()
-    {
-        if (isReleased)
-        {
-            rb.velocity = rb.velocity / 1.001f;
-           // rb.velocity = rb.velocity * 0.9f; goes down in a straight line.
-            Debug.Log(rb.velocity);
-        }
-    }
-
+ 
     public void OnReleaseRB()
     {
-        isReleased = true; 
+        //rb.constraints = RigidbodyConstraints.None;
     }
 
     public void OnPickUp()
     {
-        isReleased = false;
+        rb.constraints = RigidbodyConstraints.None;
     }
 }

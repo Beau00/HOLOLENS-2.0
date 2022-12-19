@@ -6,8 +6,8 @@ public class Clouds : MonoBehaviour
 {
     private Renderer rend;
     // The minimum and maximum scale values for the object
-    private float minScale = 0.5f;
-    private float maxScale = 1.5f;
+    private float minScale = 0.5F;
+    private float maxScale = 1.5F;
 
     // The colors to use for the material at the minimum and maximum scale values
     private Color minColor = Color.white;

@@ -12,11 +12,12 @@ GameObject:
   - component: {fileID: 7447919495661870966}
   - component: {fileID: 4663657853850037180}
   - component: {fileID: 3469287838404587393}
+  - component: {fileID: 6039429900833600845}
+  - component: {fileID: 1911205895}
   - component: {fileID: -6390098925706775464}
   - component: {fileID: -8754245678814039263}
-  - component: {fileID: 6039429900833600845}
   - component: {fileID: 8464138547069399797}
-  - component: {fileID: 1911205895}
+  - component: {fileID: 2605097008511404086}
   m_Layer: 0
   m_Name: tree1
   m_TagString: Untagged
@@ -33,7 +34,7 @@ Transform:
   m_GameObject: {fileID: 6609129673276164713}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99061245, y: 0.99061245, z: 0.99061245}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5833156331785972934}
@@ -105,6 +106,47 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2752681854592746782, guid: b0399c1df4ab2dc4e90e2a81622f82c5, type: 3}
+--- !u!114 &6039429900833600845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6609129673276164713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTetherWhenManipulating: 0
+  IsBoundsHandles: 0
+--- !u!205 &1911205895
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6609129673276164713}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.00000166893, y: 2.9890883, z: 0.05301881}
+  m_Size: 6.974068
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.20047855
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4663657853850037180}
+  - screenRelativeHeight: 0.09547612
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4663657854030550953}
+  - screenRelativeHeight: 0.005944445
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4663657853073255083}
+  m_Enabled: 1
 --- !u!114 &-6390098925706775464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,12 +175,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 5833156331874210003}
   manipulationType: 3
-  twoHandedManipulationType: 7
+  twoHandedManipulationType: -1
   allowFarManipulation: 1
   useForcesForNearManipulation: 0
   oneHandRotationModeNear: 1
   oneHandRotationModeFar: 1
-  releaseBehavior: 3
+  releaseBehavior: 0
   transformSmoothingLogicType:
     reference: Microsoft.MixedReality.Toolkit.Utilities.DefaultTransformSmoothingLogic,
       Microsoft.MixedReality.Toolkit.SDK
@@ -152,30 +194,40 @@ MonoBehaviour:
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2605097008511404086}
+        m_TargetAssemblyTypeName: RBVelocity, Assembly-CSharp
+        m_MethodName: OnPickUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2605097008511404086}
+        m_TargetAssemblyTypeName: RBVelocity, Assembly-CSharp
+        m_MethodName: OnReleaseRB
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHoverEntered:
     m_PersistentCalls:
       m_Calls: []
   onHoverExited:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6039429900833600845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6609129673276164713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowTetherWhenManipulating: 0
-  IsBoundsHandles: 0
 --- !u!54 &8464138547069399797
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -192,33 +244,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!205 &1911205895
-LODGroup:
+--- !u!114 &2605097008511404086
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6609129673276164713}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: -0.00000166893, y: 2.9890883, z: 0.05301881}
-  m_Size: 6.974068
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.20047855
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 4663657853850037180}
-  - screenRelativeHeight: 0.09547612
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 4663657854030550953}
-  - screenRelativeHeight: 0.005944445
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 4663657853073255083}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 036807c3da8a8e24890a6e33c808399a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6303123829452507949
 PrefabInstance:
   m_ObjectHideFlags: 0
