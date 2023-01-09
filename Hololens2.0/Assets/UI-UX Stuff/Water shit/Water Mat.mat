@@ -93,7 +93,7 @@ Material:
     - _Foam_Depth: 2
     - _Foam_Noise_Scale: 10
     - _Foam_Ripple_Speed: 0.3
-    - _Foam_Width: 0.5
+    - _Foam_Width: 0.005
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0

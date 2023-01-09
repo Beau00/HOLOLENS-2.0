@@ -181,7 +181,7 @@ PrefabInstance:
     - target: {fileID: 3590418741866739948, guid: 1b68421e43e4c4b4a84aab28bcb4bc38, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 943458290}
+      objectReference: {fileID: 951247594}
     - target: {fileID: 5445490514253318979, guid: 1b68421e43e4c4b4a84aab28bcb4bc38, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -271,7 +271,7 @@ Camera:
   m_GameObject: {fileID: 377955034}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -466,7 +466,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3216202387617877686, guid: 1b68421e43e4c4b4a84aab28bcb4bc38, type: 3}
   m_PrefabInstance: {fileID: 97613048}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &943458290
+--- !u!21 &951247594
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -807,7 +807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83d9acc7968244a8886f3af591305bcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeProfile: {fileID: 11400000, guid: 31a611a779d3499e8e35f1a2018ca841, type: 2}
+  activeProfile: {fileID: 11400000, guid: 1744f84404d8ad74a82fb4d92be639be, type: 2}
 --- !u!4 &1997883118
 Transform:
   m_ObjectHideFlags: 0
