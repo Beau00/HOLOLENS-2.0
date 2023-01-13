@@ -2256,7 +2256,6 @@ GameObject:
   - component: {fileID: 2602191402721352066}
   - component: {fileID: 1424530665026283531}
   - component: {fileID: 4710250984163397824}
-  - component: {fileID: 8818501749276870195}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (27)
   m_TagString: Untagged
@@ -2361,21 +2360,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &8818501749276870195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374804015942157167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 58b8bddd747ff2a41962a15692daf651, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &1434021332727197944
 GameObject:
   m_ObjectHideFlags: 0
@@ -2389,7 +2373,6 @@ GameObject:
   - component: {fileID: 2993318739160508896}
   - component: {fileID: 4960069100988081656}
   - component: {fileID: 7485525430523515502}
-  - component: {fileID: 6871890441547740755}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (5)
   m_TagString: Untagged
@@ -2440,7 +2423,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 397b43b2553cd4e49b06321678f02b1c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2494,21 +2477,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &6871890441547740755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434021332727197944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 397b43b2553cd4e49b06321678f02b1c, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &1533420580841567422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2555,7 +2523,6 @@ GameObject:
   - component: {fileID: 3076051753176225879}
   - component: {fileID: 1002770988124190826}
   - component: {fileID: 7754563492246964134}
-  - component: {fileID: 6501168024964113750}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (16)
   m_TagString: Untagged
@@ -2660,21 +2627,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &6501168024964113750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1562881266717501977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 2edd540dcfa90134486f1f9bf1df3679, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &1595019981307519343
 GameObject:
   m_ObjectHideFlags: 0
@@ -2688,7 +2640,6 @@ GameObject:
   - component: {fileID: 8823770137004058656}
   - component: {fileID: 8187800398390555926}
   - component: {fileID: 8995329328252336412}
-  - component: {fileID: 6356352555897361277}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (12)
   m_TagString: Untagged
@@ -2793,21 +2744,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &6356352555897361277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1595019981307519343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 703eca662a1b6cc49b89fbacdb920a89, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &1733495707423358038
 GameObject:
   m_ObjectHideFlags: 0
@@ -2968,7 +2904,6 @@ GameObject:
   - component: {fileID: 6988895891952786912}
   - component: {fileID: 6657900180034533150}
   - component: {fileID: 1623668735518014151}
-  - component: {fileID: 8033426341307007593}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (21)
   m_TagString: Untagged
@@ -3073,21 +3008,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &8033426341307007593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1792925325970922979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: a23af30c06058384eae5dead1b4ae485, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &1825569485880985727
 GameObject:
   m_ObjectHideFlags: 0
@@ -3101,7 +3021,6 @@ GameObject:
   - component: {fileID: 6742372319786686569}
   - component: {fileID: 8783090652600704717}
   - component: {fileID: 7003877028231369706}
-  - component: {fileID: 4192673096974377760}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (10)
   m_TagString: Untagged
@@ -3152,7 +3071,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 41192fac60121c048a64185451bb7f30, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3206,21 +3125,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &4192673096974377760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825569485880985727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 41192fac60121c048a64185451bb7f30, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &1847337226207936538
 GameObject:
   m_ObjectHideFlags: 0
@@ -3777,7 +3681,6 @@ GameObject:
   - component: {fileID: 9212129747920570598}
   - component: {fileID: 4230975319683240119}
   - component: {fileID: 5261298230720957869}
-  - component: {fileID: 5172643374296200841}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (19)
   m_TagString: Untagged
@@ -3882,21 +3785,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &5172643374296200841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2459382491371888810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 3814fd55f99529840abbceba555520a2, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &2713594097330814397
 GameObject:
   m_ObjectHideFlags: 0
@@ -4219,7 +4107,6 @@ GameObject:
   - component: {fileID: 3410607536218278624}
   - component: {fileID: 2859990145585838993}
   - component: {fileID: 6357892195697930953}
-  - component: {fileID: 7338040743809689718}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (24)
   m_TagString: Untagged
@@ -4324,21 +4211,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &7338040743809689718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2922410445989138824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 7bc5abaa2ae6f0c4098519864747df89, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &3046648117397199421
 GameObject:
   m_ObjectHideFlags: 0
@@ -4352,7 +4224,6 @@ GameObject:
   - component: {fileID: 7951143020724097228}
   - component: {fileID: 5946715902145326599}
   - component: {fileID: 7457833698123002898}
-  - component: {fileID: 717220860518628092}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (11)
   m_TagString: Untagged
@@ -4403,7 +4274,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: c57a955239b2b884c8dc0e3c32a23875, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4457,21 +4328,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &717220860518628092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3046648117397199421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: c57a955239b2b884c8dc0e3c32a23875, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &3144098447245176685
 GameObject:
   m_ObjectHideFlags: 0
@@ -4485,7 +4341,6 @@ GameObject:
   - component: {fileID: 1949783234230002728}
   - component: {fileID: 4180270791042830465}
   - component: {fileID: 7231344214193043582}
-  - component: {fileID: 5001931332037773937}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (6)
   m_TagString: Untagged
@@ -4536,7 +4391,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 6e075a57b5e2d11408f1a97b8a72b295, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4590,21 +4445,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &5001931332037773937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3144098447245176685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 6e075a57b5e2d11408f1a97b8a72b295, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &3188012510463439414
 GameObject:
   m_ObjectHideFlags: 0
@@ -5021,7 +4861,6 @@ GameObject:
   - component: {fileID: 4888282934793936282}
   - component: {fileID: 881305750532509142}
   - component: {fileID: 4455771972059983589}
-  - component: {fileID: 8571827561948472432}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (26)
   m_TagString: Untagged
@@ -5126,21 +4965,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &8571827561948472432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3290795533532476701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: e473682e50aa9554bb7759ce0b6bae4c, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &3453655257225297874
 GameObject:
   m_ObjectHideFlags: 0
@@ -5154,7 +4978,6 @@ GameObject:
   - component: {fileID: 1427739400441251922}
   - component: {fileID: 6389987582450549800}
   - component: {fileID: 2626024807751523438}
-  - component: {fileID: 8343081886512199979}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (3)
   m_TagString: Untagged
@@ -5205,7 +5028,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 10f5513ac4e48b344a7704b42bc67a94, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5259,21 +5082,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &8343081886512199979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3453655257225297874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 10f5513ac4e48b344a7704b42bc67a94, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &3478271163741827613
 GameObject:
   m_ObjectHideFlags: 0
@@ -5501,7 +5309,6 @@ GameObject:
   - component: {fileID: 4364234121383686307}
   - component: {fileID: 1695380613116358886}
   - component: {fileID: 3936391529843604780}
-  - component: {fileID: 711700947410546951}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (14)
   m_TagString: Untagged
@@ -5606,21 +5413,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &711700947410546951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3775861496855981991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 78d07e815129d72429d233ef7c137b82, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &3842657861684738486
 GameObject:
   m_ObjectHideFlags: 0
@@ -5634,7 +5426,6 @@ GameObject:
   - component: {fileID: 3842657861684738480}
   - component: {fileID: 358707171724074935}
   - component: {fileID: 497787514550846184}
-  - component: {fileID: 58451800184738934}
   m_Layer: 5
   m_Name: UIButtonSquareIcon
   m_TagString: Untagged
@@ -5685,7 +5476,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 5b935961c1f19ad45a3ca2322748f74c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5739,21 +5530,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &58451800184738934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3842657861684738486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 5b935961c1f19ad45a3ca2322748f74c, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &4312422861702060437
 GameObject:
   m_ObjectHideFlags: 0
@@ -5799,7 +5575,6 @@ GameObject:
   - component: {fileID: 3919246919547327270}
   - component: {fileID: 2552663829406312430}
   - component: {fileID: 8462607107395766703}
-  - component: {fileID: 5879172155448290125}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (17)
   m_TagString: Untagged
@@ -5904,21 +5679,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &5879172155448290125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4389925439973566493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 24ecddcf10caa014ebed4f8c817d45dd, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &4458715443021973848
 GameObject:
   m_ObjectHideFlags: 0
@@ -5932,7 +5692,6 @@ GameObject:
   - component: {fileID: 543093044316010250}
   - component: {fileID: 5445389729870615863}
   - component: {fileID: 2290536888447650821}
-  - component: {fileID: 4337479262200255443}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (7)
   m_TagString: Untagged
@@ -5983,7 +5742,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: b693e9858cb5ee74b996071a86a2352d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6037,21 +5796,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &4337479262200255443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4458715443021973848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: b693e9858cb5ee74b996071a86a2352d, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &4468150404329456895
 GameObject:
   m_ObjectHideFlags: 0
@@ -6096,7 +5840,6 @@ GameObject:
   - component: {fileID: 8457502759089583512}
   - component: {fileID: 9207368990781447338}
   - component: {fileID: 8330267306045386698}
-  - component: {fileID: 548095367541762482}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (28)
   m_TagString: Untagged
@@ -6201,21 +5944,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &548095367541762482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4633340931819522327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 1464597f25d60f74aa735985f92ba2d0, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &4649689534650456095
 GameObject:
   m_ObjectHideFlags: 0
@@ -6229,7 +5957,6 @@ GameObject:
   - component: {fileID: 2713418741610828389}
   - component: {fileID: 3102096600582326636}
   - component: {fileID: 2250360559800960203}
-  - component: {fileID: 705190787426149881}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (20)
   m_TagString: Untagged
@@ -6334,21 +6061,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &705190787426149881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4649689534650456095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: ab706a34cdd81214794e65194bbb6efd, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &5103088839626407352
 GameObject:
   m_ObjectHideFlags: 0
@@ -6362,7 +6074,6 @@ GameObject:
   - component: {fileID: 1673489430476158347}
   - component: {fileID: 1211821257297888456}
   - component: {fileID: 2978020320082422497}
-  - component: {fileID: 7106101235355303628}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (8)
   m_TagString: Untagged
@@ -6413,7 +6124,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 7d53d7abfa4ad094ba7eaf80ef5f7ebf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6467,21 +6178,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &7106101235355303628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5103088839626407352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 7d53d7abfa4ad094ba7eaf80ef5f7ebf, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &5225260263454752640
 GameObject:
   m_ObjectHideFlags: 0
@@ -6495,7 +6191,6 @@ GameObject:
   - component: {fileID: 5975285480799198088}
   - component: {fileID: 6741664148340083152}
   - component: {fileID: 2598541398045819997}
-  - component: {fileID: 483767490458488301}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (18)
   m_TagString: Untagged
@@ -6600,21 +6295,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &483767490458488301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5225260263454752640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 8ea5f144c294e1e40ae62ceec882d904, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &5253945466603583512
 GameObject:
   m_ObjectHideFlags: 0
@@ -7633,7 +7313,6 @@ GameObject:
   - component: {fileID: 2712402731011992183}
   - component: {fileID: 323351486576440634}
   - component: {fileID: 6025486081520739383}
-  - component: {fileID: 5566732659737287916}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (9)
   m_TagString: Untagged
@@ -7684,7 +7363,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: c17ee159a8f4a3e4f86c88266e15023c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7738,21 +7417,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &5566732659737287916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5647834517457801427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: c17ee159a8f4a3e4f86c88266e15023c, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &5814019376865375438
 GameObject:
   m_ObjectHideFlags: 0
@@ -7766,7 +7430,6 @@ GameObject:
   - component: {fileID: 5662869427999134323}
   - component: {fileID: 163474042291532802}
   - component: {fileID: 5317657076960327085}
-  - component: {fileID: 8747241456043033739}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (4)
   m_TagString: Untagged
@@ -7817,7 +7480,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 05f8deaa418ca0a4dac079772b137314, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7871,21 +7534,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &8747241456043033739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5814019376865375438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 05f8deaa418ca0a4dac079772b137314, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &5862954564904005692
 GameObject:
   m_ObjectHideFlags: 0
@@ -7899,7 +7547,6 @@ GameObject:
   - component: {fileID: 6132556780511571103}
   - component: {fileID: 1817616722194039108}
   - component: {fileID: 4772985358410025979}
-  - component: {fileID: 4466275714659244205}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (30)
   m_TagString: Untagged
@@ -8004,21 +7651,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &4466275714659244205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5862954564904005692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 27d8c3c6f8a94df4f89347889d038aa1, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &5916875434561567239
 GameObject:
   m_ObjectHideFlags: 0
@@ -8444,7 +8076,6 @@ GameObject:
   - component: {fileID: 6248493265977847235}
   - component: {fileID: 4235182312408649995}
   - component: {fileID: 4885944625430796098}
-  - component: {fileID: 5229061000235034930}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (13)
   m_TagString: Untagged
@@ -8549,21 +8180,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &5229061000235034930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6053772092109847704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: b9208791eb3f21b4b8723e6d368ece90, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &6378489707787207633
 GameObject:
   m_ObjectHideFlags: 0
@@ -8577,7 +8193,6 @@ GameObject:
   - component: {fileID: 5229586186666913920}
   - component: {fileID: 3631214664190238316}
   - component: {fileID: 6821450000684334639}
-  - component: {fileID: 4877054160776769075}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (29)
   m_TagString: Untagged
@@ -8682,21 +8297,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &4877054160776769075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6378489707787207633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: e82c59285afe69d4599fa1abdf041062, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &6718104585766466509
 GameObject:
   m_ObjectHideFlags: 0
@@ -9326,7 +8926,6 @@ GameObject:
   - component: {fileID: 8662048643767162924}
   - component: {fileID: 7525218377569702052}
   - component: {fileID: 5449343627134956243}
-  - component: {fileID: 2724105934446834864}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (23)
   m_TagString: Untagged
@@ -9431,21 +9030,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &2724105934446834864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8079273541368301485}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 339ad36194837394d8f5955d297b5d5b, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &8215527747066911292
 GameObject:
   m_ObjectHideFlags: 0
@@ -9459,7 +9043,6 @@ GameObject:
   - component: {fileID: 7222955830381800680}
   - component: {fileID: 1900541427712957853}
   - component: {fileID: 2824347882843937983}
-  - component: {fileID: 8270681101252066158}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (2)
   m_TagString: Untagged
@@ -9510,7 +9093,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: e90ac185124c18043860da5e67b93800, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9564,21 +9147,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &8270681101252066158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8215527747066911292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: e90ac185124c18043860da5e67b93800, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &8486841099261407269
 GameObject:
   m_ObjectHideFlags: 0
@@ -9710,7 +9278,6 @@ GameObject:
   - component: {fileID: 643118730624236704}
   - component: {fileID: 1780113662939728688}
   - component: {fileID: 1882635464850162855}
-  - component: {fileID: 679691071496181140}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (22)
   m_TagString: Untagged
@@ -9815,21 +9382,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &679691071496181140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8590679394185919285}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 103bbbc117ec8fd4b914939f0e76411e, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &8893629572141347874
 GameObject:
   m_ObjectHideFlags: 0
@@ -9843,7 +9395,6 @@ GameObject:
   - component: {fileID: 2634187491250610142}
   - component: {fileID: 3339461433032848970}
   - component: {fileID: 6271027298405141285}
-  - component: {fileID: 4499628509462374320}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (1)
   m_TagString: Untagged
@@ -9894,7 +9445,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 5c7a5a33f4c153b47a6dd4292e96f885, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9948,21 +9499,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &4499628509462374320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8893629572141347874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 5c7a5a33f4c153b47a6dd4292e96f885, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &9017538017573701089
 GameObject:
   m_ObjectHideFlags: 0
@@ -9976,7 +9512,6 @@ GameObject:
   - component: {fileID: 5463752497774477430}
   - component: {fileID: 6844706000000293856}
   - component: {fileID: 4887497768902888845}
-  - component: {fileID: 7944284582928671344}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (15)
   m_TagString: Untagged
@@ -10081,21 +9616,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &7944284582928671344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9017538017573701089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 5bcaaa81591efdf4ca0ebd869d3c37e5, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1 &9125868908606209805
 GameObject:
   m_ObjectHideFlags: 0
@@ -10192,7 +9712,6 @@ GameObject:
   - component: {fileID: 6050601359185460445}
   - component: {fileID: 3499010253443233086}
   - component: {fileID: 4423347502873720462}
-  - component: {fileID: 4622501331205347832}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (25)
   m_TagString: Untagged
@@ -10297,21 +9816,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &4622501331205347832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9208190122564250853}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caf309545b476f649949bf93bf4830d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultMaterials:
-  - {fileID: 2100000, guid: 76402cf0771c24740b5fc5786afd97b5, type: 2}
-  cacheSharedMaterialsFromRenderer: 0
 --- !u!1001 &298944663416615691
 PrefabInstance:
   m_ObjectHideFlags: 0
