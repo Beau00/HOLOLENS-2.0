@@ -12,12 +12,10 @@ GameObject:
   - component: {fileID: 5672990315761078058}
   - component: {fileID: 7592635675098971104}
   - component: {fileID: 3469287838549876816}
-  - component: {fileID: 5250821170074275779}
   - component: {fileID: 9124257982022070123}
-  - component: {fileID: -9141848989369545013}
-  - component: {fileID: 4057335159377950161}
-  - component: {fileID: -7648568853448965434}
-  - component: {fileID: -9215230530680393625}
+  - component: {fileID: -5741163964697223314}
+  - component: {fileID: 2290236842680003855}
+  - component: {fileID: -9200920765296081810}
   m_Layer: 0
   m_Name: tree5
   m_TagString: Untagged
@@ -58,7 +56,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8241175668920212021}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -106,20 +104,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3496978629935306671, guid: 9e85888b883d4e049856e2d8fbe9635a, type: 3}
---- !u!114 &5250821170074275779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8241175668920212021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowTetherWhenManipulating: 0
-  IsBoundsHandles: 0
 --- !u!205 &9124257982022070123
 LODGroup:
   m_ObjectHideFlags: 0
@@ -146,8 +130,8 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 7592635674976954581}
-  m_Enabled: 1
---- !u!114 &-9141848989369545013
+  m_Enabled: 0
+--- !u!114 &-5741163964697223314
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,7 +145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
---- !u!114 &4057335159377950161
+--- !u!114 &2290236842680003855
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,12 +159,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hostTransform: {fileID: 8724977949870424207}
   manipulationType: 3
-  twoHandedManipulationType: -1
+  twoHandedManipulationType: 0
   allowFarManipulation: 1
   useForcesForNearManipulation: 0
   oneHandRotationModeNear: 1
   oneHandRotationModeFar: 1
-  releaseBehavior: 0
+  releaseBehavior: 3
   transformSmoothingLogicType:
     reference: Microsoft.MixedReality.Toolkit.Utilities.DefaultTransformSmoothingLogic,
       Microsoft.MixedReality.Toolkit.SDK
@@ -189,62 +173,22 @@ MonoBehaviour:
   moveLerpTime: 0.001
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
-  enableConstraints: 1
-  constraintsManager: {fileID: -6390098925706775464, guid: a0802045a1422d74f9c5b492e9bcf1db, type: 3}
+  enableConstraints: 0
+  constraintsManager: {fileID: -5741163964697223314}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: -9215230530680393625}
-        m_TargetAssemblyTypeName: RBVelocity, Assembly-CSharp
-        m_MethodName: OnPickUp
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   onManipulationEnded:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: -9215230530680393625}
-        m_TargetAssemblyTypeName: RBVelocity, Assembly-CSharp
-        m_MethodName: OnReleaseRB
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   onHoverEntered:
     m_PersistentCalls:
       m_Calls: []
   onHoverExited:
     m_PersistentCalls:
       m_Calls: []
---- !u!54 &-7648568853448965434
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8241175668920212021}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &-9215230530680393625
+--- !u!114 &-9200920765296081810
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -253,9 +197,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8241175668920212021}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 036807c3da8a8e24890a6e33c808399a, type: 3}
+  m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ShowTetherWhenManipulating: 0
+  IsBoundsHandles: 0
 --- !u!1001 &9124257981306102055
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -325,7 +271,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f0480942db75ab343a2e1f52d581b113, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0480942db75ab343a2e1f52d581b113, type: 3}
@@ -420,7 +366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5920c256df0ca3241b985bf5b106e2d3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5920c256df0ca3241b985bf5b106e2d3, type: 3}
