@@ -364,11 +364,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8738818118445000675}
   - component: {fileID: 8738818118445000672}
-  - component: {fileID: 9111194080555574281}
   - component: {fileID: 5507245172805533092}
   - component: {fileID: 3260523245254591839}
-  - component: {fileID: 8562251235759950465}
   - component: {fileID: 708409172861558075}
+  - component: {fileID: 4269004532660447189}
   m_Layer: 0
   m_Name: Roof1
   m_TagString: Untagged
@@ -409,18 +408,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1823839558182494717, guid: 28e5b9f2a89fffd449a46fda00e2390a, type: 3}
---- !u!114 &9111194080555574281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8738818118445000674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 036807c3da8a8e24890a6e33c808399a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5507245172805533092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -469,9 +456,9 @@ MonoBehaviour:
   onManipulationStarted:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 9111194080555574281}
-        m_TargetAssemblyTypeName: RBVelocity, Assembly-CSharp
-        m_MethodName: OnPickUp
+      - m_Target: {fileID: 4269004532660447189}
+        m_TargetAssemblyTypeName: On_Obj_Pickup, Assembly-CSharp
+        m_MethodName: OnObjectPickUp
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -483,41 +470,13 @@ MonoBehaviour:
         m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9111194080555574281}
-        m_TargetAssemblyTypeName: RBVelocity, Assembly-CSharp
-        m_MethodName: OnReleaseRB
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   onHoverEntered:
     m_PersistentCalls:
       m_Calls: []
   onHoverExited:
     m_PersistentCalls:
       m_Calls: []
---- !u!54 &8562251235759950465
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8738818118445000674}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &708409172861558075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -532,6 +491,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTetherWhenManipulating: 0
   IsBoundsHandles: 0
+--- !u!114 &4269004532660447189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8738818118445000674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b15a5a5fc5daa04087bdac314627e7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8738818118691438894
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,11 +565,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8738818118778162924}
   - component: {fileID: 8738818118778162925}
-  - component: {fileID: 6910671592629330253}
-  - component: {fileID: 5856305906773551975}
   - component: {fileID: 6331692526118380785}
   - component: {fileID: 4128427871606952539}
   - component: {fileID: 4435722014604791111}
+  - component: {fileID: 1076912310276405594}
   m_Layer: 0
   m_Name: Roof2
   m_TagString: Untagged
@@ -640,34 +610,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -9207733389697354148, guid: ab0ccd1ace4712d45a43daf2c955d306, type: 3}
---- !u!54 &6910671592629330253
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8738818118778162927}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &5856305906773551975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8738818118778162927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 036807c3da8a8e24890a6e33c808399a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6331692526118380785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -716,9 +658,9 @@ MonoBehaviour:
   onManipulationStarted:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5856305906773551975}
-        m_TargetAssemblyTypeName: RBVelocity, Assembly-CSharp
-        m_MethodName: OnPickUp
+      - m_Target: {fileID: 1076912310276405594}
+        m_TargetAssemblyTypeName: On_Obj_Pickup, Assembly-CSharp
+        m_MethodName: OnObjectPickUp
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -730,19 +672,7 @@ MonoBehaviour:
         m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5856305906773551975}
-        m_TargetAssemblyTypeName: RBVelocity, Assembly-CSharp
-        m_MethodName: OnReleaseRB
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   onHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -763,6 +693,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTetherWhenManipulating: 0
   IsBoundsHandles: 0
+--- !u!114 &1076912310276405594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8738818118778162927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b15a5a5fc5daa04087bdac314627e7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8738818118983861568
 GameObject:
   m_ObjectHideFlags: 0

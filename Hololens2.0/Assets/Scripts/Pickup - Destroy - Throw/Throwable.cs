@@ -10,7 +10,7 @@ public class Throwable : MonoBehaviour
     private int _2ndlastPositionIndex = 1;
     private int _3rdlastPositionIndex = 0;
 
-    private Rigidbody _rigidbody;
+    public Rigidbody _rigidbody;
 
     // Start is called before the first frame update
     void Start()
