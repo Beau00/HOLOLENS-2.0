@@ -8,6 +8,7 @@ public class InventoryInstantiate : MonoBehaviour
 
     public void ButtonClickedInstantiate()
     {
-        Instantiate(objToInstantiate, transform.position, transform.rotation);
+        GameObject instantiated = Instantiate(objToInstantiate, transform.position, transform.rotation);
+        instantiated.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
     }
 }
