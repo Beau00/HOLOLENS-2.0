@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3705835662175999417}
   - component: {fileID: -8473006767172133919}
   - component: {fileID: -6180059619292729728}
+  - component: {fileID: -7191935635492826082}
   m_Layer: 0
   m_Name: tree2
   m_TagString: Untagged
@@ -178,7 +179,19 @@ MonoBehaviour:
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -7191935635492826082}
+        m_TargetAssemblyTypeName: On_Obj_Pickup, Assembly-CSharp
+        m_MethodName: OnObjectPickUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
       m_Calls: []
@@ -202,6 +215,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTetherWhenManipulating: 0
   IsBoundsHandles: 0
+--- !u!114 &-7191935635492826082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191945944030869026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b15a5a5fc5daa04087bdac314627e7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1038224851300014930
 PrefabInstance:
   m_ObjectHideFlags: 0
