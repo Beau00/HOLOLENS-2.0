@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -5169675994775409796}
   - component: {fileID: 818171365798483976}
   - component: {fileID: 3215387958725194274}
-  - component: {fileID: -5249440623397217040}
+  - component: {fileID: 4406669187358946276}
   m_Layer: 0
   m_Name: tree6
   m_TagString: Untagged
@@ -165,7 +165,7 @@ MonoBehaviour:
   useForcesForNearManipulation: 0
   oneHandRotationModeNear: 1
   oneHandRotationModeFar: 1
-  releaseBehavior: 3
+  releaseBehavior: 0
   transformSmoothingLogicType:
     reference: Microsoft.MixedReality.Toolkit.Utilities.DefaultTransformSmoothingLogic,
       Microsoft.MixedReality.Toolkit.SDK
@@ -180,7 +180,7 @@ MonoBehaviour:
   onManipulationStarted:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -5249440623397217040}
+      - m_Target: {fileID: 4406669187358946276}
         m_TargetAssemblyTypeName: On_Obj_Pickup, Assembly-CSharp
         m_MethodName: OnObjectPickUp
         m_Mode: 1
@@ -215,7 +215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTetherWhenManipulating: 0
   IsBoundsHandles: 0
---- !u!114 &-5249440623397217040
+--- !u!114 &4406669187358946276
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

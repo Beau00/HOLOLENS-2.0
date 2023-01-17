@@ -12,6 +12,9 @@ public class Throwable : MonoBehaviour
 
     public Rigidbody _rigidbody;
 
+    public bool hasThrown = false;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,18 +29,31 @@ public class Throwable : MonoBehaviour
         _3rdlastPositionIndex = (_3rdlastPositionIndex + 1) % _lastKnownPositionSize;
 
         _lastKnownPositions[_lastPositionIndex] = transform.position;
+
+        if (hasThrown)
+        {
+            if (_rigidbody.velocity.magnitude >= 0.1f)
+            {
+                _rigidbody.useGravity = false;
+            }
+        }
     }
 
     public void Throw()
     {
+        Debug.Log("Hoi Robert");
         if (_rigidbody != null)
         {
+            hasThrown = true;
+            Debug.Log("Doeg Robert");
             Vector3 avgVelocity = (_lastKnownPositions[_lastPositionIndex] - _lastKnownPositions[_2ndlastPositionIndex]) / Time.fixedDeltaTime; // Average velocity over the last frame.
             float accelFactor = 0;
             float denominator = (_lastKnownPositions[_2ndlastPositionIndex] - _lastKnownPositions[_3rdlastPositionIndex]).magnitude;
             if (denominator != 0)
-                accelFactor = (_lastKnownPositions[_lastPositionIndex] - _lastKnownPositions[_2ndlastPositionIndex]).magnitude / denominator;
+                //accelFactor = (_lastKnownPositions[_lastPositionIndex] - _lastKnownPositions[_2ndlastPositionIndex]).magnitude / denominator;
+                accelFactor = 4;
             _rigidbody.velocity = avgVelocity * accelFactor;
+            Debug.LogWarning("Velocity: " + _rigidbody.velocity.magnitude);
         }
     }
 }
