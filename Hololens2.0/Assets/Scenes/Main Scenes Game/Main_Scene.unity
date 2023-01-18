@@ -342,11 +342,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4951315836615182, guid: f75829242875c1c4ca4ea5a5e7a6a742, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.0441
       objectReference: {fileID: 0}
     - target: {fileID: 4951315836615182, guid: f75829242875c1c4ca4ea5a5e7a6a742, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.0493
       objectReference: {fileID: 0}
     - target: {fileID: 4951315836615182, guid: f75829242875c1c4ca4ea5a5e7a6a742, type: 3}
       propertyPath: m_LocalPosition.z
@@ -383,7 +383,7 @@ PrefabInstance:
     - target: {fileID: 23607015926866058, guid: f75829242875c1c4ca4ea5a5e7a6a742, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 83afaa6a36213b34291567b6da6ec401, type: 2}
+      objectReference: {fileID: 2100000, guid: f9326c3bd04b792498b7ba61c1aaeeb9, type: 2}
     - target: {fileID: 102609536747261144, guid: f75829242875c1c4ca4ea5a5e7a6a742, type: 3}
       propertyPath: m_Text
       value: Yes
@@ -951,17 +951,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4744437910150932, guid: f75829242875c1c4ca4ea5a5e7a6a742, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0004
+      objectReference: {fileID: 0}
     - target: {fileID: 4951315836615182, guid: f75829242875c1c4ca4ea5a5e7a6a742, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4951315836615182, guid: f75829242875c1c4ca4ea5a5e7a6a742, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.16900001
+      value: 0.225
       objectReference: {fileID: 0}
     - target: {fileID: 4951315836615182, guid: f75829242875c1c4ca4ea5a5e7a6a742, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.0493
       objectReference: {fileID: 0}
     - target: {fileID: 4951315836615182, guid: f75829242875c1c4ca4ea5a5e7a6a742, type: 3}
       propertyPath: m_LocalPosition.z
@@ -998,7 +1002,7 @@ PrefabInstance:
     - target: {fileID: 23607015926866058, guid: f75829242875c1c4ca4ea5a5e7a6a742, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 02cc5d68ec3ed7b45877087281b22e12, type: 2}
+      objectReference: {fileID: 2100000, guid: f9326c3bd04b792498b7ba61c1aaeeb9, type: 2}
     - target: {fileID: 102609536747261144, guid: f75829242875c1c4ca4ea5a5e7a6a742, type: 3}
       propertyPath: m_Text
       value: No
@@ -1161,7 +1165,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4951315836615182, guid: f75829242875c1c4ca4ea5a5e7a6a742, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.39936227
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 4951315836615182, guid: f75829242875c1c4ca4ea5a5e7a6a742, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1198,7 +1202,7 @@ PrefabInstance:
     - target: {fileID: 23607015926866058, guid: f75829242875c1c4ca4ea5a5e7a6a742, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 83afaa6a36213b34291567b6da6ec401, type: 2}
+      objectReference: {fileID: 2100000, guid: f9326c3bd04b792498b7ba61c1aaeeb9, type: 2}
     - target: {fileID: 102609536747261144, guid: f75829242875c1c4ca4ea5a5e7a6a742, type: 3}
       propertyPath: m_Text
       value: Confirm
@@ -1350,7 +1354,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -26.6}
+  m_AnchoredPosition: {x: 0, y: 10}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304982619
@@ -1856,8 +1860,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -76.7}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 0, y: -65.1}
+  m_SizeDelta: {x: 222.47, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1644213706
 MonoBehaviour:
@@ -1879,10 +1883,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Select and move object to fit on table
+  m_text: 'Select and move the red object to your liking.
 
-    Click the button to confirm
-    placement.'
+    Click the confirm
+    button to confirm the placement.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
