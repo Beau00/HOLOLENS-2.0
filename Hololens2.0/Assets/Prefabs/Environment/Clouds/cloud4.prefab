@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 1175531333023011506}
   - component: {fileID: 3011276613980181889}
   - component: {fileID: -194613877828601408}
-  - component: {fileID: -2312178529348864212}
   - component: {fileID: 2860056239162323103}
   m_Layer: 0
   m_Name: cloud4
@@ -31,7 +30,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7470368255636827340}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -132,8 +131,8 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: -1457005103378872456, guid: 8355393dda04d7847aa7187bce281d24, type: 3}
-  elasticsManager: {fileID: -2312178529348864212}
+  constraintsManager: {fileID: 0}
+  elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
       m_Calls: []
@@ -172,42 +171,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e928117d61ef2640a26b75586731423, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-2312178529348864212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7470368255636827340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49eebbfcc03829f4ebed61c2617da0fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  translationElasticConfigurationObject: {fileID: 0}
-  rotationElasticConfigurationObject: {fileID: 0}
-  scaleElasticConfigurationObject: {fileID: 0}
-  translationElasticExtent:
-    StretchBounds:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
-    UseBounds: 0
-    SnapPoints: []
-    RepeatSnapPoints: 0
-    SnapRadius: 0
-  rotationElasticExtent:
-    SnapPoints: []
-    RepeatSnapPoints: 0
-    SnapRadius: 0
-  scaleElasticExtent:
-    StretchBounds:
-      m_Center: {x: 0.5, y: 0.5, z: 0.5}
-      m_Extent: {x: 1.5, y: 1.5, z: 1.5}
-    UseBounds: 0
-    SnapPoints: []
-    RepeatSnapPoints: 0
-    SnapRadius: 1
-  elasticTypes: 4
 --- !u!65 &2860056239162323103
 BoxCollider:
   m_ObjectHideFlags: 0

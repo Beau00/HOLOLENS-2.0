@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5009092747136247502}
   - component: {fileID: 7090680228742844932}
   - component: {fileID: 288148429}
-  - component: {fileID: 288148430}
   - component: {fileID: 288148431}
   - component: {fileID: 288148439}
   - component: {fileID: 288148440}
@@ -103,42 +102,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
---- !u!114 &288148430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8748194351524738001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49eebbfcc03829f4ebed61c2617da0fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  translationElasticConfigurationObject: {fileID: 0}
-  rotationElasticConfigurationObject: {fileID: 0}
-  scaleElasticConfigurationObject: {fileID: 0}
-  translationElasticExtent:
-    StretchBounds:
-      m_Center: {x: 0.1, y: 0.1, z: 0.1}
-      m_Extent: {x: 0.2, y: 0.2, z: 0.2}
-    UseBounds: 1
-    SnapPoints: []
-    RepeatSnapPoints: 0
-    SnapRadius: 0.2
-  rotationElasticExtent:
-    SnapPoints: []
-    RepeatSnapPoints: 0
-    SnapRadius: 0
-  scaleElasticExtent:
-    StretchBounds:
-      m_Center: {x: 0.5, y: 0.5, z: 0.5}
-      m_Extent: {x: 1.5, y: 1.5, z: 1.5}
-    UseBounds: 0
-    SnapPoints: []
-    RepeatSnapPoints: 0
-    SnapRadius: 1
-  elasticTypes: 4
 --- !u!114 &288148431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,7 +132,7 @@ MonoBehaviour:
   scaleLerpTime: 0.001
   enableConstraints: 1
   constraintsManager: {fileID: 288148429}
-  elasticsManager: {fileID: 288148430}
+  elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
       m_Calls:

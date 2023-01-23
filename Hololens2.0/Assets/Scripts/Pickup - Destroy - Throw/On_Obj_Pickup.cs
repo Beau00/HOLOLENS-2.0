@@ -15,25 +15,19 @@ public class On_Obj_Pickup : MonoBehaviour
         
         if (pickedUp && !scriptsAdded)
         {
-
-            
             _rigidbody = gameObject.AddComponent<Rigidbody>();
-            gameObject.AddComponent<Throwable>();
-
-            _rigidbody.useGravity = false;
-
+            gameObject.AddComponent<ThrowableTest>();
             gameObject.GetComponent<ObjectManipulator>().OnManipulationEnded.AddListener(AddThrowFunction);
-
             scriptsAdded = true;
         }
-       
+        _rigidbody.isKinematic = true;
 
     }
 
     public void AddThrowFunction (ManipulationEventData test)
     {
-        _rigidbody.useGravity = true;
-        gameObject.GetComponent<Throwable>().Throw();
+        gameObject.GetComponent<ThrowableTest>().AddVelocity();
+        Debug.Log("Throw added.");
     }
 
     
