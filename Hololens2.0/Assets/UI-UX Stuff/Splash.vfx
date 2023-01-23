@@ -167,7 +167,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.AABox, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"center":{"x":-0.9328546524047852,"y":1.7966454029083253,"z":-0.06886446475982666},"size":{"x":1.8814146518707276,"y":0.670762836933136,"z":3.161508798599243}}'
+      m_SerializableObject: '{"center":{"x":0.003207683563232422,"y":0.0985872745513916,"z":0.029104232788085939},"size":{"x":1.8814146518707276,"y":0.670762836933136,"z":3.161508798599243}}'
     m_Space: 0
   m_Property:
     name: bounds
