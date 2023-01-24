@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2425308150317151220}
   - component: {fileID: 1587439140978064465}
   - component: {fileID: 3594787524462807195}
-  - component: {fileID: 8284569238619827323}
+  - component: {fileID: 994330419254685566}
   m_Layer: 0
   m_Name: Cow
   m_TagString: Untagged
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8284569238619827323
+--- !u!65 &994330419254685566
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,5 +95,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6717811, y: 1.2158936, z: 1.6524385}
-  m_Center: {x: -0.0000005364418, y: 0.6079468, z: 0.13658673}
+  m_Size: {x: 0.87331545, y: 1.5806618, z: 2.14817}
+  m_Center: {x: 0.0000002682209, y: 0.7903309, z: 0.17756462}
