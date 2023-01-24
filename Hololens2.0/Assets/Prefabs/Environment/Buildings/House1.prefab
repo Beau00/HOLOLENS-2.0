@@ -111,12 +111,12 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 1629223632912784773}
+  constraintsManager: {fileID: 5883620493155038417}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7879637217480799501}
+      - m_Target: {fileID: 4330477123436369882}
         m_TargetAssemblyTypeName: On_Obj_Pickup, Assembly-CSharp
         m_MethodName: OnObjectPickUp
         m_Mode: 1
@@ -342,12 +342,12 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 1629223632912784773}
+  constraintsManager: {fileID: 4287093415742912677}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7879637217480799501}
+      - m_Target: {fileID: 8982386994232131000}
         m_TargetAssemblyTypeName: On_Obj_Pickup, Assembly-CSharp
         m_MethodName: OnObjectPickUp
         m_Mode: 1
@@ -488,12 +488,12 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 1629223632912784773}
+  constraintsManager: {fileID: 9083423431352001848}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7879637217480799501}
+      - m_Target: {fileID: 5102371526759034975}
         m_TargetAssemblyTypeName: On_Obj_Pickup, Assembly-CSharp
         m_MethodName: OnObjectPickUp
         m_Mode: 1
@@ -860,12 +860,12 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 1629223632912784773}
+  constraintsManager: {fileID: 2209325307087288227}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7879637217480799501}
+      - m_Target: {fileID: 2040824598349675680}
         m_TargetAssemblyTypeName: On_Obj_Pickup, Assembly-CSharp
         m_MethodName: OnObjectPickUp
         m_Mode: 1
@@ -1006,12 +1006,12 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 1629223632912784773}
+  constraintsManager: {fileID: 8566580114746944383}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7879637217480799501}
+      - m_Target: {fileID: 1469331303110500258}
         m_TargetAssemblyTypeName: On_Obj_Pickup, Assembly-CSharp
         m_MethodName: OnObjectPickUp
         m_Mode: 1
@@ -1985,18 +1985,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6200329404333985893, guid: 24b4f88f1159f674eaef90c9d0a8ba08, type: 3}
   m_PrefabInstance: {fileID: 4356415361511967707}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7879637217480799501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7673823765964610494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b15a5a5fc5daa04087bdac314627e7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1629223632912784773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2080,6 +2068,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTetherWhenManipulating: 0
   IsBoundsHandles: 0
+--- !u!114 &7879637217480799501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7673823765964610494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b15a5a5fc5daa04087bdac314627e7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4356415361580993460
 PrefabInstance:
   m_ObjectHideFlags: 0

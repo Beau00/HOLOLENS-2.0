@@ -145,12 +145,12 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: -4565183270127232539, guid: 752e53b8dafa6674e8e18db6197c5165, type: 3}
+  constraintsManager: {fileID: -189735852695574093}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5373911495537911740, guid: 752e53b8dafa6674e8e18db6197c5165, type: 3}
+      - m_Target: {fileID: 1605535899747397297}
         m_TargetAssemblyTypeName: On_Obj_Pickup, Assembly-CSharp
         m_MethodName: OnObjectPickUp
         m_Mode: 1

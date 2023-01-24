@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -7203811952083043764}
   - component: {fileID: 5373911495537911740}
   - component: {fileID: 8972574692896032849}
+  - component: {fileID: -8712403848235570994}
   m_Layer: 0
   m_Name: Rock_Big2
   m_TagString: Untagged
@@ -197,3 +198,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTetherWhenManipulating: 0
   IsBoundsHandles: 0
+--- !u!114 &-8712403848235570994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724210569050609790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c859cecf25bb9fc4c9ce837204d17f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
