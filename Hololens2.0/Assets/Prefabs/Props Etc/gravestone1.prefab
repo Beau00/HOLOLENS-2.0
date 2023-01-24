@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 4410737642994843964}
   - component: {fileID: 763867085488639641}
   - component: {fileID: 3277840256719206995}
-  - component: {fileID: 4232451234182440650}
   - component: {fileID: 4232451234182440652}
   - component: {fileID: -6970414247464247996}
   - component: {fileID: -2042043848433468964}
   - component: {fileID: 8372167960581529135}
   - component: {fileID: 3310610712725542974}
+  - component: {fileID: 7731315021223997761}
   m_Layer: 0
   m_Name: gravestone1
   m_TagString: Untagged
@@ -90,19 +90,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4232451234182440650
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3926512329307888518}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.7521919, y: 1.55155, z: 0.4875168}
-  m_Center: {x: 0, y: 0.5797064, z: 0.000000029802322}
 --- !u!205 &4232451234182440652
 LODGroup:
   m_ObjectHideFlags: 0
@@ -221,6 +208,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTetherWhenManipulating: 0
   IsBoundsHandles: 0
+--- !u!65 &7731315021223997761
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3926512329307888518}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1282879, y: 2.3273249, z: 0.7312752}
+  m_Center: {x: 0, y: 0.8695595, z: 0.000000044703484}
 --- !u!1001 &4232451234925218566
 PrefabInstance:
   m_ObjectHideFlags: 0

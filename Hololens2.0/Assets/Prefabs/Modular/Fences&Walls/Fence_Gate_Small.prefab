@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6947228740541049784}
   - component: {fileID: 6324839681336435741}
   - component: {fileID: 8080213542286561495}
-  - component: {fileID: 8876946544049206937}
+  - component: {fileID: 6891928345283187148}
   m_Layer: 0
   m_Name: Fence_Gate_Small
   m_TagString: Untagged
@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7719824073272144130}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8876946544049206937
+--- !u!65 &6891928345283187148
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,5 +95,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2224958, y: 1.0635662, z: 0.12686476}
-  m_Center: {x: -0.54781556, y: 0.46036118, z: 0.000000048428774}
+  m_Size: {x: 1.8337438, y: 1.5953493, z: 0.19029716}
+  m_Center: {x: -0.82172334, y: 0.69054174, z: 0.000000070780516}

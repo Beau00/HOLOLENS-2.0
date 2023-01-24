@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 1184910705271176739}
   - component: {fileID: 2872871701550592390}
   - component: {fileID: 16478236919792972}
-  - component: {fileID: 1728009513698826702}
   - component: {fileID: 7318325601692613949}
   - component: {fileID: -3786784006434390929}
   - component: {fileID: 1476359544721504877}
   - component: {fileID: 2159869354570642800}
+  - component: {fileID: 2321541753457286960}
   m_Layer: 0
   m_Name: gravestone2
   m_TagString: Untagged
@@ -88,19 +88,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1728009513698826702
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1962011080398906521}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.69606614, y: 1.0622847, z: 0.22071642}
-  m_Center: {x: 0, y: 0.27786362, z: 0}
 --- !u!114 &7318325601692613949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,3 +183,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b15a5a5fc5daa04087bdac314627e7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &2321541753457286960
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962011080398906521}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0440992, y: 1.5934268, z: 0.33107463}
+  m_Center: {x: 0, y: 0.76744026, z: 0}

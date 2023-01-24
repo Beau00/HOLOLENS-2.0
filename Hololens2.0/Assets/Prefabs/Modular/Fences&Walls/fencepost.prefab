@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6194413713764450822}
   - component: {fileID: 7086732740215836067}
   - component: {fileID: 5025408779020335465}
-  - component: {fileID: 6140798316436930710}
+  - component: {fileID: 8158320799083533952}
   m_Layer: 0
   m_Name: fencepost
   m_TagString: Untagged
@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6826659719815190716}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6140798316436930710
+--- !u!65 &8158320799083533952
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,5 +95,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.12686475, y: 1, z: 0.12686476}
-  m_Center: {x: 0.000000007450581, y: 0.42857808, z: 0.000000048428774}
+  m_Size: {x: 0.1902971, y: 1.5, z: 0.19029716}
+  m_Center: {x: 0.000000011175871, y: 0.6428671, z: 0.000000070780516}
