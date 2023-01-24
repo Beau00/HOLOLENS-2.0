@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -827942545092467139}
   - component: {fileID: -1660608645734785548}
   - component: {fileID: 3884416969219663471}
+  - component: {fileID: -729719744440617476}
   m_Layer: 0
   m_Name: cactus3
   m_TagString: Untagged
@@ -182,3 +183,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTetherWhenManipulating: 0
   IsBoundsHandles: 0
+--- !u!65 &-729719744440617476
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5926025782793799854}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7019098, y: 5.643947, z: 1.3596685}
+  m_Center: {x: 0.12190598, y: 1.9171073, z: -0.00004246831}
