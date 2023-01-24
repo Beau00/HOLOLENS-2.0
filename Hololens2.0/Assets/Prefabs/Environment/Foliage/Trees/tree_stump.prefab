@@ -12,11 +12,11 @@ GameObject:
   - component: {fileID: 3202972489132907090}
   - component: {fileID: 835358132469067416}
   - component: {fileID: 2041921093420184065}
-  - component: {fileID: 2041921093420184071}
   - component: {fileID: 936648230469151211}
   - component: {fileID: 6786496559043182514}
   - component: {fileID: -6048481674409949417}
   - component: {fileID: -7565764210114747983}
+  - component: {fileID: 2122767152405434938}
   m_Layer: 0
   m_Name: tree_stump
   m_TagString: Untagged
@@ -118,19 +118,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 835358133393854454}
   m_Enabled: 1
---- !u!65 &2041921093420184071
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1195483305993228109}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.1355133, y: 0.9056941, z: 1.1839399}
-  m_Center: {x: 0.097831726, y: 0.2386992, z: -0.048812747}
 --- !u!114 &936648230469151211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,6 +213,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTetherWhenManipulating: 0
   IsBoundsHandles: 0
+--- !u!65 &2122767152405434938
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195483305993228109}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1850471, y: 1.3585411, z: 1.7485833}
+  m_Center: {x: 0.13531685, y: 0.35804874, z: -0.093263865}
 --- !u!1001 &2041921092045540811
 PrefabInstance:
   m_ObjectHideFlags: 0
