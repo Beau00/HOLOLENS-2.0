@@ -171,10 +171,12 @@ GameObject:
   - component: {fileID: 3138888319382441667}
   - component: {fileID: 3171989026648664374}
   - component: {fileID: 919132147527101344}
-  - component: {fileID: 1487625887197079578}
   - component: {fileID: -6676393200407060610}
   - component: {fileID: 2486268899525277489}
   - component: {fileID: 1028636513860282515}
+  - component: {fileID: 8382072563270200984}
+  - component: {fileID: -7595055602233490483}
+  - component: {fileID: 7553045721379657220}
   m_Layer: 0
   m_Name: character_female1
   m_TagString: Untagged
@@ -239,19 +241,6 @@ MonoBehaviour:
   hat: {fileID: 3178658668586114642}
   HatChance: 0.3
   ItemChance: 0.3
---- !u!65 &1487625887197079578
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2361085666044515449}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &-6676393200407060610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,15 +313,78 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8382072563270200984}
+        m_TargetAssemblyTypeName: CharacterBools, Assembly-CSharp
+        m_MethodName: PanicTrue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8382072563270200984}
+        m_TargetAssemblyTypeName: CharacterBools, Assembly-CSharp
+        m_MethodName: WalkingTrue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHoverEntered:
     m_PersistentCalls:
       m_Calls: []
   onHoverExited:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8382072563270200984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2361085666044515449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b647727f22954cbd894fc7ce31e83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-7595055602233490483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2361085666044515449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTetherWhenManipulating: 0
+  IsBoundsHandles: 0
+--- !u!65 &7553045721379657220
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2361085666044515449}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.74, y: 1.5469811, z: 0.45}
+  m_Center: {x: -0, y: 0.73651004, z: -0}
 --- !u!1 &2926784549622323288
 GameObject:
   m_ObjectHideFlags: 0

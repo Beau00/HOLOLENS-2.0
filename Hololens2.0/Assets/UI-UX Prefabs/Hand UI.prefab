@@ -695,6 +695,8 @@ GameObject:
   - component: {fileID: 1404783367402299462}
   - component: {fileID: 5998075450947583232}
   - component: {fileID: 611211107370795546}
+  - component: {fileID: 5548073560145327977}
+  - component: {fileID: 4450640943103000058}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (2)
   m_TagString: Untagged
@@ -800,6 +802,63 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
+--- !u!114 &5548073560145327977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330815336795389914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41edd99047b84d6408f9d1d6db4627f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objToInstantiate: {fileID: 3090520774519499086, guid: 8d6ba5635a150254fb2546738d8c5c2c, type: 3}
+--- !u!114 &4450640943103000058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330815336795389914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1410eac1ae94b4d4492a09cc368e152c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states: {fileID: 11400000, guid: 5eac1712038236e4b8ffdb3893804fe1, type: 2}
+  InputActionId: 0
+  isGlobal: 0
+  Dimensions: 1
+  dimensionIndex: 0
+  startDimensionIndex: 0
+  CanSelect: 1
+  CanDeselect: 1
+  voiceCommand: 
+  voiceRequiresFocus: 1
+  profiles:
+  - Target: {fileID: 0}
+    Themes:
+    - {fileID: 0}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5548073560145327977}
+        m_TargetAssemblyTypeName: InventoryInstantiate, Assembly-CSharp
+        m_MethodName: ButtonClickedInstantiate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Events: []
+  resetOnDestroy: 0
+  enabledOnStart: 1
 --- !u!1 &371007026013115403
 GameObject:
   m_ObjectHideFlags: 0
@@ -5065,6 +5124,8 @@ GameObject:
   - component: {fileID: 3956790081303516036}
   - component: {fileID: 1278883881821378014}
   - component: {fileID: 2361703016085765454}
+  - component: {fileID: 7585526841317088545}
+  - component: {fileID: 2351490714264188037}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (1)
   m_TagString: Untagged
@@ -5170,6 +5231,63 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
+--- !u!114 &7585526841317088545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2776728900077392308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41edd99047b84d6408f9d1d6db4627f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objToInstantiate: {fileID: 3190549252470049962, guid: 3ec3d010c3ab4554fb229afa3f29a1da, type: 3}
+--- !u!114 &2351490714264188037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2776728900077392308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1410eac1ae94b4d4492a09cc368e152c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states: {fileID: 11400000, guid: 5eac1712038236e4b8ffdb3893804fe1, type: 2}
+  InputActionId: 0
+  isGlobal: 0
+  Dimensions: 1
+  dimensionIndex: 0
+  startDimensionIndex: 0
+  CanSelect: 1
+  CanDeselect: 1
+  voiceCommand: 
+  voiceRequiresFocus: 1
+  profiles:
+  - Target: {fileID: 0}
+    Themes:
+    - {fileID: 0}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7585526841317088545}
+        m_TargetAssemblyTypeName: InventoryInstantiate, Assembly-CSharp
+        m_MethodName: ButtonClickedInstantiate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Events: []
+  resetOnDestroy: 0
+  enabledOnStart: 1
 --- !u!1 &2813450110162109884
 GameObject:
   m_ObjectHideFlags: 0
@@ -8352,7 +8470,8 @@ MonoBehaviour:
   voiceRequiresFocus: 1
   profiles:
   - Target: {fileID: 0}
-    Themes: []
+    Themes:
+    - {fileID: 0}
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -9629,6 +9748,8 @@ GameObject:
   - component: {fileID: 4739483481467299793}
   - component: {fileID: 9059852982133320662}
   - component: {fileID: 5539143379554031083}
+  - component: {fileID: 5552188825102412070}
+  - component: {fileID: 8443511237839784590}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (3)
   m_TagString: Untagged
@@ -9734,6 +9855,63 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
+--- !u!114 &5552188825102412070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5363010536512973358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41edd99047b84d6408f9d1d6db4627f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objToInstantiate: {fileID: 8834422106397985594, guid: 7c1ef0f8e6559124ba119ebee543f316, type: 3}
+--- !u!114 &8443511237839784590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5363010536512973358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1410eac1ae94b4d4492a09cc368e152c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states: {fileID: 11400000, guid: 5eac1712038236e4b8ffdb3893804fe1, type: 2}
+  InputActionId: 0
+  isGlobal: 0
+  Dimensions: 1
+  dimensionIndex: 0
+  startDimensionIndex: 0
+  CanSelect: 1
+  CanDeselect: 1
+  voiceCommand: 
+  voiceRequiresFocus: 1
+  profiles:
+  - Target: {fileID: 0}
+    Themes:
+    - {fileID: 0}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5552188825102412070}
+        m_TargetAssemblyTypeName: InventoryInstantiate, Assembly-CSharp
+        m_MethodName: ButtonClickedInstantiate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Events: []
+  resetOnDestroy: 0
+  enabledOnStart: 1
 --- !u!1 &5406642441321638275
 GameObject:
   m_ObjectHideFlags: 0
@@ -10781,7 +10959,8 @@ MonoBehaviour:
   voiceRequiresFocus: 1
   profiles:
   - Target: {fileID: 0}
-    Themes: []
+    Themes:
+    - {fileID: 0}
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -13866,6 +14045,8 @@ GameObject:
   - component: {fileID: 6815008448670821804}
   - component: {fileID: 1282722278152595417}
   - component: {fileID: 7358897510735494441}
+  - component: {fileID: 2224133516979533622}
+  - component: {fileID: 6089924171289514499}
   m_Layer: 5
   m_Name: UIButtonSquareIcon
   m_TagString: Untagged
@@ -13971,6 +14152,63 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
+--- !u!114 &2224133516979533622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8486841099261407269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41edd99047b84d6408f9d1d6db4627f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objToInstantiate: {fileID: 6209249787659958531, guid: 2e5d6c18808c7b3489d9bdcb5e5f08d7, type: 3}
+--- !u!114 &6089924171289514499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8486841099261407269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1410eac1ae94b4d4492a09cc368e152c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states: {fileID: 11400000, guid: 5eac1712038236e4b8ffdb3893804fe1, type: 2}
+  InputActionId: 0
+  isGlobal: 0
+  Dimensions: 1
+  dimensionIndex: 0
+  startDimensionIndex: 0
+  CanSelect: 1
+  CanDeselect: 1
+  voiceCommand: 
+  voiceRequiresFocus: 1
+  profiles:
+  - Target: {fileID: 0}
+    Themes:
+    - {fileID: 0}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2224133516979533622}
+        m_TargetAssemblyTypeName: InventoryInstantiate, Assembly-CSharp
+        m_MethodName: ButtonClickedInstantiate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Events: []
+  resetOnDestroy: 0
+  enabledOnStart: 1
 --- !u!1 &8590679394185919285
 GameObject:
   m_ObjectHideFlags: 0
