@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: CustomIconSet
   m_EditorClassIdentifier: 
   quadIcons:
+  - {fileID: 2800000, guid: 6da8de8a84511894fb45266a743adefb, type: 3}
+  - {fileID: 2800000, guid: d55f935aaab230f489a76c7c47291e17, type: 3}
+  - {fileID: 2800000, guid: 4d8d73f4c50b24f44b3d531268065aed, type: 3}
+  - {fileID: 2800000, guid: 025eb5cc28c6f764dbf1ece5fe2fb610, type: 3}
   - {fileID: 2800000, guid: bb1b4a9241fba2042a81428e917afd5d, type: 3}
   - {fileID: 2800000, guid: 8d0274d8bc6a17844a08b493920d9491, type: 3}
   - {fileID: 2800000, guid: b5066c514f7f02f4292cf842f3c8b75f, type: 3}
