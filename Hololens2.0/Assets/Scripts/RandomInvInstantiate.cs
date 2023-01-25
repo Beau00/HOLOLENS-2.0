@@ -8,7 +8,7 @@ public class RandomInvInstantiate : MonoBehaviour
 
     public void RandomInstantiate()
     {
-        GameObject instantiated = Instantiate(clouds[1], transform.position, transform.rotation);
+        GameObject instantiated = Instantiate(clouds[Random.Range(0, clouds.Length)], transform.position, transform.rotation);
         instantiated.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
     }
 }
