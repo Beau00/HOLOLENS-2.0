@@ -150,7 +150,7 @@ MonoBehaviour:
   onManipulationStarted:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -557200850289015839, guid: c4041d62b5242224abc0a2e3adcc464a, type: 3}
+      - m_Target: {fileID: 4869336075302885467}
         m_TargetAssemblyTypeName: On_Obj_Pickup, Assembly-CSharp
         m_MethodName: OnObjectPickUp
         m_Mode: 1
