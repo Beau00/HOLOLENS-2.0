@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7492726215858894117}
   - component: {fileID: 4620540945615962607}
   - component: {fileID: 6331744570131668325}
+  - component: {fileID: 4272932139220621302}
   m_Layer: 0
   m_Name: selection_island_desert
   m_TagString: Untagged
@@ -109,6 +110,25 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8189437351609123285, guid: 9f6a3feb2d18e2644b184206274b76a1, type: 3}
+--- !u!114 &4272932139220621302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6566118455600865338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c748f3768ab714a8449b60fb9edc5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventsToReceive: 0
+  debounceThreshold: 0.01
+  localForward: {x: -0, y: -0, z: -1}
+  localUp: {x: 0, y: 1, z: 0}
+  localCenter: {x: 0.0026214123, y: 1.61, z: -2.4558377}
+  bounds: {x: 4.984707, y: 3.1012678}
+  touchableCollider: {fileID: 6331744570131668325}
 --- !u!1001 &6331744569274777160
 PrefabInstance:
   m_ObjectHideFlags: 0
