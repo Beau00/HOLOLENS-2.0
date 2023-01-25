@@ -9925,6 +9925,8 @@ GameObject:
   - component: {fileID: 3034801750582699828}
   - component: {fileID: 9137436672860214}
   - component: {fileID: 509572388926968882}
+  - component: {fileID: 331122842286214636}
+  - component: {fileID: 5363622273235657098}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (3)
   m_TagString: Untagged
@@ -10030,6 +10032,68 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
+--- !u!114 &331122842286214636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5406642441321638275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1617ec24421f5a4f814fa3ec9b25ed5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clouds:
+  - {fileID: 1392335127164291631, guid: c85872a7710f75b4da887543bbdac943, type: 3}
+  - {fileID: 5873010273163701606, guid: f4584c27ba96c874fa14b4f86a748b10, type: 3}
+  - {fileID: 2921264855152125804, guid: 61a052bf367c4164ca04f333e1ba6cf3, type: 3}
+  - {fileID: 2698672158016075367, guid: 2cca14f17512b0e4aa6dd780ff1a9966, type: 3}
+  - {fileID: 8529887232746438643, guid: e94b7a45b1da07c49b034453bd50b9fc, type: 3}
+--- !u!114 &5363622273235657098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5406642441321638275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1410eac1ae94b4d4492a09cc368e152c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states: {fileID: 11400000, guid: 5eac1712038236e4b8ffdb3893804fe1, type: 2}
+  InputActionId: 0
+  isGlobal: 0
+  Dimensions: 1
+  dimensionIndex: 0
+  startDimensionIndex: 0
+  CanSelect: 1
+  CanDeselect: 1
+  voiceCommand: 
+  voiceRequiresFocus: 1
+  profiles:
+  - Target: {fileID: 0}
+    Themes:
+    - {fileID: 0}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 331122842286214636}
+        m_TargetAssemblyTypeName: RandomInvInstantiate, Assembly-CSharp
+        m_MethodName: RandomInstantiate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Events: []
+  resetOnDestroy: 0
+  enabledOnStart: 1
 --- !u!1 &5408692312702511243
 GameObject:
   m_ObjectHideFlags: 0
@@ -13277,6 +13341,8 @@ GameObject:
   - component: {fileID: 1552173380500086197}
   - component: {fileID: 8865243348886656887}
   - component: {fileID: 6336461239401063761}
+  - component: {fileID: 4355359988908984375}
+  - component: {fileID: 294482230172525342}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (2)
   m_TagString: Untagged
@@ -13382,6 +13448,68 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
+--- !u!114 &4355359988908984375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7522138468093260358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1617ec24421f5a4f814fa3ec9b25ed5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clouds:
+  - {fileID: 1824890303181147972, guid: c062ebd1f9808e446854d7c802482b57, type: 3}
+  - {fileID: 9011926646715920750, guid: eeac9c07b9eec564c9de90dad34ed86f, type: 3}
+  - {fileID: 6359975915072560811, guid: 75fe846a6f5e14e43b5f00cc4d32cea9, type: 3}
+  - {fileID: 6001209681963791523, guid: 72ff9af8ea554ea489019c4f8ed34a10, type: 3}
+  - {fileID: 3396327900686836448, guid: 6c5bcbe0619421b41bad96faaa032605, type: 3}
+--- !u!114 &294482230172525342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7522138468093260358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1410eac1ae94b4d4492a09cc368e152c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states: {fileID: 11400000, guid: 5eac1712038236e4b8ffdb3893804fe1, type: 2}
+  InputActionId: 0
+  isGlobal: 0
+  Dimensions: 1
+  dimensionIndex: 0
+  startDimensionIndex: 0
+  CanSelect: 1
+  CanDeselect: 1
+  voiceCommand: 
+  voiceRequiresFocus: 1
+  profiles:
+  - Target: {fileID: 0}
+    Themes:
+    - {fileID: 0}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4355359988908984375}
+        m_TargetAssemblyTypeName: RandomInvInstantiate, Assembly-CSharp
+        m_MethodName: RandomInstantiate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Events: []
+  resetOnDestroy: 0
+  enabledOnStart: 1
 --- !u!1 &7559214984300348706
 GameObject:
   m_ObjectHideFlags: 0
@@ -13459,6 +13587,8 @@ GameObject:
   - component: {fileID: 3189477075393113913}
   - component: {fileID: 3777667942381466070}
   - component: {fileID: 4581932384096885974}
+  - component: {fileID: 7391405629340108793}
+  - component: {fileID: 2590768607069934158}
   m_Layer: 5
   m_Name: UIButtonSquareIcon
   m_TagString: Untagged
@@ -13564,6 +13694,63 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
+--- !u!114 &7391405629340108793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7848868720027816036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41edd99047b84d6408f9d1d6db4627f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objToInstantiate: {fileID: 1548250767276846974, guid: b9746eb1b41c0ad4db64ff6fb5e19f03, type: 3}
+--- !u!114 &2590768607069934158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7848868720027816036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1410eac1ae94b4d4492a09cc368e152c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states: {fileID: 11400000, guid: 5eac1712038236e4b8ffdb3893804fe1, type: 2}
+  InputActionId: 0
+  isGlobal: 0
+  Dimensions: 1
+  dimensionIndex: 0
+  startDimensionIndex: 0
+  CanSelect: 1
+  CanDeselect: 1
+  voiceCommand: 
+  voiceRequiresFocus: 1
+  profiles:
+  - Target: {fileID: 0}
+    Themes:
+    - {fileID: 0}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7391405629340108793}
+        m_TargetAssemblyTypeName: InventoryInstantiate, Assembly-CSharp
+        m_MethodName: ButtonClickedInstantiate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Events: []
+  resetOnDestroy: 0
+  enabledOnStart: 1
 --- !u!1 &8079273541368301485
 GameObject:
   m_ObjectHideFlags: 0
@@ -13927,6 +14114,8 @@ GameObject:
   - component: {fileID: 6489799811312170592}
   - component: {fileID: 4816553695789910850}
   - component: {fileID: 8528150918150272782}
+  - component: {fileID: 3253979803610899255}
+  - component: {fileID: 2153516839338808503}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (1)
   m_TagString: Untagged
@@ -14032,6 +14221,68 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
+--- !u!114 &3253979803610899255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8423818479633755009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1617ec24421f5a4f814fa3ec9b25ed5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clouds:
+  - {fileID: 7517176470503965071, guid: 4fc4d360adfcb834ab90b2f107ecd542, type: 3}
+  - {fileID: 3585536900370787589, guid: 7b784789b19a631439878dc8979ca9dd, type: 3}
+  - {fileID: 3124317920975319084, guid: 14ca6dd0589d6174db2ea29d682f9e6b, type: 3}
+  - {fileID: 807451794144434220, guid: a1b23f0f28e592647a29504c59c2770c, type: 3}
+  - {fileID: 7839703524546450848, guid: 5e4ef16f8d32c164cb17ab5a619a01f1, type: 3}
+--- !u!114 &2153516839338808503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8423818479633755009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1410eac1ae94b4d4492a09cc368e152c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states: {fileID: 11400000, guid: 5eac1712038236e4b8ffdb3893804fe1, type: 2}
+  InputActionId: 0
+  isGlobal: 0
+  Dimensions: 1
+  dimensionIndex: 0
+  startDimensionIndex: 0
+  CanSelect: 1
+  CanDeselect: 1
+  voiceCommand: 
+  voiceRequiresFocus: 1
+  profiles:
+  - Target: {fileID: 0}
+    Themes:
+    - {fileID: 0}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3253979803610899255}
+        m_TargetAssemblyTypeName: RandomInvInstantiate, Assembly-CSharp
+        m_MethodName: RandomInstantiate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Events: []
+  resetOnDestroy: 0
+  enabledOnStart: 1
 --- !u!1 &8486841099261407269
 GameObject:
   m_ObjectHideFlags: 0
