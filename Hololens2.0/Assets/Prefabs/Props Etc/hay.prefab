@@ -98,8 +98,8 @@ LODGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3119239819357308510}
   serializedVersion: 2
-  m_LocalReferencePoint: {x: -0.000000059604645, y: 0.7936891, z: -0.00000035762787}
-  m_Size: 1.8230759
+  m_LocalReferencePoint: {x: -0.00000011920929, y: 1.1905336, z: -0.00000059604645}
+  m_Size: 2.734614
   m_FadeMode: 0
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
@@ -170,7 +170,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: -8906598559589445148}
+  constraintsManager: {fileID: 4444283781825963322, guid: 688f2dd6bf28a824eb14c4a6089afaac, type: 3}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
