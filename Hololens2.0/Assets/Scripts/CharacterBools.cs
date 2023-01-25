@@ -6,17 +6,30 @@ public class CharacterBools : MonoBehaviour
 {
     private Animator animator;
 
+    public bool isSitting = false;
+
+
     private void Start()
     {
         animator = GetComponent<Animator>();
 
-        Debug.Log("Shitting");
-        animator.SetBool("IsWalking", false);
-        animator.SetBool("Panic", false);
-
-
-        animator.SetBool("Start", true);
-        animator.SetBool("IsSitting", true);
+        if (isSitting)
+        {
+            Debug.Log("Shitting");
+            animator.SetBool("IsWalking", false);
+            animator.SetBool("Panic", false);
+            animator.SetBool("Start", true);
+            animator.SetBool("IsSitting", true);
+        }
+        else
+        {
+            animator.SetBool("IsSitting", false);
+            animator.SetBool("IsWalking", false);
+            animator.SetBool("Panic", false);
+            animator.SetBool("Start", true);
+    
+        }
+       
     }
  
 
