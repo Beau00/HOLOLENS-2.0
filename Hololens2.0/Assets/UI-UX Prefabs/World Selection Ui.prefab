@@ -354,7 +354,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.25, y: 0.07499999}
+  m_AnchoredPosition: {x: 0.558, y: 0.07499999}
   m_SizeDelta: {x: 0.032, y: 0.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &3590418741866739948
@@ -1578,6 +1578,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7435579107189580335, guid: 3b94ad21d393e344eb7488ee24f854e2, type: 3}
+      propertyPath: isGlobal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435579107189580335, guid: 3b94ad21d393e344eb7488ee24f854e2, type: 3}
       propertyPath: profiles.Array.data[0].Target
       value: 
       objectReference: {fileID: 4760542697730037620}
@@ -1591,23 +1595,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7435579107189580335, guid: 3b94ad21d393e344eb7488ee24f854e2, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7435579107189580335, guid: 3b94ad21d393e344eb7488ee24f854e2, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 4760542697730037620}
+      objectReference: {fileID: 1912870409}
     - target: {fileID: 7435579107189580335, guid: 3b94ad21d393e344eb7488ee24f854e2, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7435579107189580335, guid: 3b94ad21d393e344eb7488ee24f854e2, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
+      value: SelectMainMap
       objectReference: {fileID: 0}
     - target: {fileID: 7435579107189580335, guid: 3b94ad21d393e344eb7488ee24f854e2, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: MapSelection, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7435579107189580335, guid: 3b94ad21d393e344eb7488ee24f854e2, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1865,6 +1869,18 @@ MonoBehaviour:
   localCenter: {x: 0.0026214123, y: 1.61, z: -2.4558377}
   bounds: {x: 4.984707, y: 3.1012678}
   touchableCollider: {fileID: 2881548340815466398}
+--- !u!114 &1912870409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4760542697730037620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ee26f67662f304f8001841fd1640f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &5285828418543750606 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7347965809223460002, guid: 3b94ad21d393e344eb7488ee24f854e2, type: 3}
@@ -1998,6 +2014,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3216202388938244531}
     m_Modifications:
+    - target: {fileID: 4272932139220621302, guid: d4a9a4a912c123c48aa6417f0dfe0309, type: 3}
+      propertyPath: touchableCollider
+      value: 
+      objectReference: {fileID: 8241395833873121750}
     - target: {fileID: 4620540945615962607, guid: d4a9a4a912c123c48aa6417f0dfe0309, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2020,7 +2040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5788349684720974464, guid: d4a9a4a912c123c48aa6417f0dfe0309, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.58
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 5788349684720974464, guid: d4a9a4a912c123c48aa6417f0dfe0309, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2098,7 +2118,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8628253646367912720}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 98c748f3768ab714a8449b60fb9edc5c, type: 3}
   m_Name: 
@@ -2139,10 +2159,10 @@ MonoBehaviour:
   OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8628253646367912720}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 939606441}
+        m_TargetAssemblyTypeName: MapSelection, Assembly-CSharp
+        m_MethodName: SelectDesertMap
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2154,6 +2174,18 @@ MonoBehaviour:
   Events: []
   resetOnDestroy: 0
   enabledOnStart: 1
+--- !u!114 &939606441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8628253646367912720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ee26f67662f304f8001841fd1640f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &9004497026893359530 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5788349684720974464, guid: d4a9a4a912c123c48aa6417f0dfe0309, type: 3}
