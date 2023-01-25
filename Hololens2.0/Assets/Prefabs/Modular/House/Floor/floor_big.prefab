@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1926770509217975904}
   - component: {fileID: 4420763350115433130}
   - component: {fileID: 7260950775403676611}
+  - component: {fileID: 3180063408228480764}
   m_Layer: 0
   m_Name: floor_big
   m_TagString: Untagged
@@ -108,6 +109,19 @@ LODGroup:
     renderers:
     - renderer: {fileID: 4420763350183196244}
   m_Enabled: 1
+--- !u!65 &3180063408228480764
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2763319732913150847}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 0.050000004, z: 3}
+  m_Center: {x: 0, y: 0.05, z: 0}
 --- !u!1001 &3069239952062458576
 PrefabInstance:
   m_ObjectHideFlags: 0
