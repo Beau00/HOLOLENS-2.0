@@ -5,7 +5,7 @@ using UnityEngine;
 public class AnimatorStart : MonoBehaviour
 {
     public List<Material> materialList = new List<Material>();
-    public GameObject item, hat;
+    public GameObject hat;
     [Header("Chance 0 - 1")]
     public float HatChance = .3f, ItemChance = .2f;
     Animator anim;
@@ -20,14 +20,6 @@ public class AnimatorStart : MonoBehaviour
         if (Random.Range(0f, 1f) > HatChance)
         {
             Destroy(hat);
-        }
-        if(Random.Range(0f,1f) > ItemChance)
-        {
-            Destroy(item);
-        }
-        else
-        {
-            item.GetComponent<Renderer>().material = materialList[Random.Range(0, materialList.Count)];
         }
     }
 
