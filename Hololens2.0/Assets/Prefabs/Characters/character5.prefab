@@ -662,7 +662,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6973012595353499640}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7d977520624d2ef46a49ef764cfbb0a1, type: 2}
   m_CullingMode: 0
@@ -681,7 +681,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6973012595353499640}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fb7515c63bfb384e9ce77dfaccfa13e, type: 3}
   m_Name: 
@@ -690,7 +690,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 9b0e38928106d3a4a81a035a6fde6718, type: 2}
   - {fileID: 2100000, guid: 852c1ae01d1cb484b9d0de75bee482af, type: 2}
   - {fileID: 2100000, guid: e3a3de773cf4d0448bb03088a419e0d4, type: 2}
-  item: {fileID: 0}
   hat: {fileID: 7790525669842098284}
   HatChance: 0.3
   ItemChance: 0.3
@@ -825,6 +824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 357b647727f22954cbd894fc7ce31e83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSitting: 0
 --- !u!65 &-8422787728723231822
 BoxCollider:
   m_ObjectHideFlags: 0
