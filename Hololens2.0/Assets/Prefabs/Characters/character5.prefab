@@ -625,9 +625,10 @@ GameObject:
   - component: {fileID: 7783477806045760276}
   - component: {fileID: 919132149248575148}
   - component: {fileID: 1748240173}
-  - component: {fileID: 1748240170}
-  - component: {fileID: 1748240171}
-  - component: {fileID: 1748240172}
+  - component: {fileID: -154605569464046386}
+  - component: {fileID: -7091727263489125690}
+  - component: {fileID: -7505683720714552446}
+  - component: {fileID: -7962028370371659968}
   m_Layer: 0
   m_Name: character5
   m_TagString: Untagged
@@ -705,7 +706,33 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.55, y: 1.46, z: 0.45}
   m_Center: {x: -0, y: 0.78, z: 0}
---- !u!114 &1748240170
+--- !u!114 &-154605569464046386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6973012595353499640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b15a5a5fc5daa04087bdac314627e7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-7091727263489125690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6973012595353499640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a98de877dee5fc341b4eb59dfdab266c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoConstraintSelection: 1
+  selectedConstraints: []
+--- !u!114 &-7505683720714552446
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -734,11 +761,23 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 1748240171}
+  constraintsManager: {fileID: -7091727263489125690}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -154605569464046386}
+        m_TargetAssemblyTypeName: On_Obj_Pickup, Assembly-CSharp
+        m_MethodName: OnObjectPickUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
       m_Calls: []
@@ -748,21 +787,7 @@ MonoBehaviour:
   onHoverExited:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1748240171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6973012595353499640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a98de877dee5fc341b4eb59dfdab266c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  autoConstraintSelection: 1
-  selectedConstraints: []
---- !u!114 &1748240172
+--- !u!114 &-7962028370371659968
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
