@@ -2832,8 +2832,8 @@ GameObject:
   - component: {fileID: 8181922052515691623}
   - component: {fileID: 4155563457458574456}
   - component: {fileID: 1928158404012876833}
-  - component: {fileID: 2316722122303159382}
   - component: {fileID: 7848803869356085784}
+  - component: {fileID: 8224654484862440486}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (6)
   m_TagString: Untagged
@@ -2939,24 +2939,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &2316722122303159382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1349760938664679328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1617ec24421f5a4f814fa3ec9b25ed5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clouds:
-  - {fileID: 1392335127164291631, guid: c85872a7710f75b4da887543bbdac943, type: 3}
-  - {fileID: 5873010273163701606, guid: f4584c27ba96c874fa14b4f86a748b10, type: 3}
-  - {fileID: 2921264855152125804, guid: 61a052bf367c4164ca04f333e1ba6cf3, type: 3}
-  - {fileID: 2698672158016075367, guid: 2cca14f17512b0e4aa6dd780ff1a9966, type: 3}
-  - {fileID: 8529887232746438643, guid: e94b7a45b1da07c49b034453bd50b9fc, type: 3}
 --- !u!114 &7848803869356085784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2986,9 +2968,9 @@ MonoBehaviour:
   OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2316722122303159382}
-        m_TargetAssemblyTypeName: RandomInvInstantiate, Assembly-CSharp
-        m_MethodName: RandomInstantiate
+      - m_Target: {fileID: 8224654484862440486}
+        m_TargetAssemblyTypeName: InventoryInstantiate, Assembly-CSharp
+        m_MethodName: ButtonClickedInstantiate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3001,6 +2983,19 @@ MonoBehaviour:
   Events: []
   resetOnDestroy: 0
   enabledOnStart: 1
+--- !u!114 &8224654484862440486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349760938664679328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41edd99047b84d6408f9d1d6db4627f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objToInstantiate: {fileID: 551401090033356519, guid: 273b49b3f397bdd45918a5a9d923f6e2, type: 3}
 --- !u!1 &1374804015942157167
 GameObject:
   m_ObjectHideFlags: 0
@@ -3666,7 +3661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41edd99047b84d6408f9d1d6db4627f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objToInstantiate: {fileID: 8834422106397985594, guid: 7c1ef0f8e6559124ba119ebee543f316, type: 3}
+  objToInstantiate: {fileID: 5671007874686082324, guid: fca3d45d2acf38c48aef56597fd35e0f, type: 3}
 --- !u!114 &970811096862707028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5248,11 +5243,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clouds:
-  - {fileID: 1392335127164291631, guid: c85872a7710f75b4da887543bbdac943, type: 3}
-  - {fileID: 5873010273163701606, guid: f4584c27ba96c874fa14b4f86a748b10, type: 3}
-  - {fileID: 2921264855152125804, guid: 61a052bf367c4164ca04f333e1ba6cf3, type: 3}
-  - {fileID: 2698672158016075367, guid: 2cca14f17512b0e4aa6dd780ff1a9966, type: 3}
-  - {fileID: 8529887232746438643, guid: e94b7a45b1da07c49b034453bd50b9fc, type: 3}
+  - {fileID: 6032174387529599955, guid: 3766ebbf44b7c68498a8cfdd27993324, type: 3}
+  - {fileID: 1484097868433166862, guid: 8ecb9bafb3b7b054fbbba22c7d8cd5c0, type: 3}
+  - {fileID: 4932696809364419249, guid: eacf399183c439645b77275d13f985c6, type: 3}
+  - {fileID: 3133124306459984134, guid: b3985dd44e0df94428a62fec21a83257, type: 3}
+  - {fileID: 2272477028646648208, guid: fd966c57b81586e46a46383815838383, type: 3}
 --- !u!114 &1699372367882402151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13829,7 +13824,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7270720157159233272
 Transform:
   m_ObjectHideFlags: 0
@@ -15017,8 +15012,8 @@ GameObject:
   - component: {fileID: 7866545111743243296}
   - component: {fileID: 7345459571392274290}
   - component: {fileID: 4748657871240763540}
-  - component: {fileID: 4627537499630446700}
   - component: {fileID: 7435261527122186558}
+  - component: {fileID: 2990264396457049349}
   m_Layer: 5
   m_Name: UIButtonSquareIcon (4)
   m_TagString: Untagged
@@ -15124,24 +15119,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.039999995, y: 0.039999995, z: 0}
   m_Center: {x: 0, y: 0.000000004656613, z: 0}
---- !u!114 &4627537499630446700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7932428832433990694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1617ec24421f5a4f814fa3ec9b25ed5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clouds:
-  - {fileID: 1392335127164291631, guid: c85872a7710f75b4da887543bbdac943, type: 3}
-  - {fileID: 5873010273163701606, guid: f4584c27ba96c874fa14b4f86a748b10, type: 3}
-  - {fileID: 2921264855152125804, guid: 61a052bf367c4164ca04f333e1ba6cf3, type: 3}
-  - {fileID: 2698672158016075367, guid: 2cca14f17512b0e4aa6dd780ff1a9966, type: 3}
-  - {fileID: 8529887232746438643, guid: e94b7a45b1da07c49b034453bd50b9fc, type: 3}
 --- !u!114 &7435261527122186558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15171,9 +15148,9 @@ MonoBehaviour:
   OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4627537499630446700}
-        m_TargetAssemblyTypeName: RandomInvInstantiate, Assembly-CSharp
-        m_MethodName: RandomInstantiate
+      - m_Target: {fileID: 2990264396457049349}
+        m_TargetAssemblyTypeName: InventoryInstantiate, Assembly-CSharp
+        m_MethodName: ButtonClickedInstantiate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15186,6 +15163,19 @@ MonoBehaviour:
   Events: []
   resetOnDestroy: 0
   enabledOnStart: 1
+--- !u!114 &2990264396457049349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7932428832433990694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41edd99047b84d6408f9d1d6db4627f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objToInstantiate: {fileID: 508791979560805515, guid: 3b8d2ec36f934094897c9b1c080a8641, type: 3}
 --- !u!1 &8079273541368301485
 GameObject:
   m_ObjectHideFlags: 0
